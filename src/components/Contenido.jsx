@@ -15,25 +15,25 @@ const Contenido = () => (
                     <a href="https://api.whatsapp.com/send?phone=5493815360966"><i className="fab fa-whatsapp"></i></a>
                 </div>
                 <div className="wrapper">
-                    <a className="button" href="https://www.linkedin.com/in/esteban-nahuel-carrizo-69715422b/" target="_blank">
+                    <a className="button" href="https://www.linkedin.com/in/esteban-nahuel-carrizo-69715422b/" rel="noopener">
                         <div className="icon">
                             <i className="fab fa-linkedin"></i>
                         </div>
                         <span>Linkedin</span>
                     </a>
-                    <a className="button" href="https://github.com/Nahuel61920/" target="_blank">
+                    <a className="button" href="https://github.com/Nahuel61920/" rel="noopener">
                         <div className="icon">
                             <i className="fab fa-github"></i>
                         </div>
                         <span>Github</span>
                     </a>
-                    <a className="button" href="https://www.instagram.com/nahuelcarrizolc/" target="_blank">
+                    <a className="button" href="https://www.instagram.com/nahuelcarrizolc/" rel="noopener">
                         <div className="icon">
                             <i className="fab fa-instagram"></i>
                         </div>
                         <span>Instagram</span>
                     </a>
-                    <a className="button" href="https://api.whatsapp.com/send?phone=5493815360966" target="_blank">
+                    <a className="button" href="https://api.whatsapp.com/send?phone=5493815360966" rel="noopener">
                         <div className="icon">
                             <i className="fab fa-whatsapp"></i>
                         </div>

@@ -24,7 +24,7 @@ const Contact = () => (
         </h3>
 
         <div className="icons">
-            <a href="mailto:estebancarrizo619@gmail.com" target="_blank">
+            <a href="mailto:estebancarrizo619@gmail.com" rel="noopener">
                 <div className="layer">
                     <span></span>
                     <span></span>
@@ -36,7 +36,7 @@ const Contact = () => (
                     Gmail
                 </div>
             </a>
-            <a href="https://api.whatsapp.com/send?phone=5493815360966" target="_blank">
+            <a href="https://api.whatsapp.com/send?phone=5493815360966" rel="noopener">
                 <div className="layer">
                     <span></span>
                     <span></span>
@@ -48,7 +48,7 @@ const Contact = () => (
                     Whatsapp
                 </div>
             </a>
-            <a href="https://www.instagram.com/nahuelcarrizolc/" target="_blank">
+            <a href="https://www.instagram.com/nahuelcarrizolc/" rel="noopener">
                 <div className="layer">
                     <span></span>
                     <span></span>
@@ -60,7 +60,7 @@ const Contact = () => (
                     Instagram
                 </div>
             </a>
-            <a href="#" target="_blank">
+            <a href="#" rel="noopener">
                 <div className="layer">
                     <span></span>
                     <span></span>
@@ -72,7 +72,7 @@ const Contact = () => (
                     Twitter
                 </div>
             </a>
-            <a href="https://www.linkedin.com/in/esteban-nahuel-carrizo-69715422b/" target="_blank">
+            <a href="https://www.linkedin.com/in/esteban-nahuel-carrizo-69715422b/" rel="noopener">
                 <div className="layer">
                     <span></span>
                     <span></span>
@@ -84,7 +84,7 @@ const Contact = () => (
                     Linkedin
                 </div>
             </a>
-            <a href="https://github.com/Nahuel61920/" target="_blank">
+            <a href="https://github.com/Nahuel61920/" rel="noopener">
                 <div className="layer">
                     <span></span>
                     <span></span>

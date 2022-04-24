@@ -14,10 +14,10 @@ const Footer = () =>{
                     <p>&copy; {fecha}. All Rights Reserved.</p>
                 </div>
                 <div className="redes-sociales">
-                    <a href="https://github.com/Nahuel61920/" target="_blank"><i className="fab fa-github"></i></a>
-                    <a href="https://www.instagram.com/nahuelcarrizolc/" target="_blank"><i className="fab fa-facebook-square"></i></a>
-                    <a href="https://www.linkedin.com/in/esteban-nahuel-carrizo-69715422b/" target="_blank"><i className="fab fa-linkedin"></i></a>
-                    <a href="https://api.whatsapp.com/send?phone=5493815360966" target="_blank"><i className="fab fa-whatsapp"></i></a>
+                    <a href="https://github.com/Nahuel61920/" rel="noopener"><i className="fab fa-github"></i></a>
+                    <a href="https://www.instagram.com/nahuelcarrizolc/" rel="noopener"><i className="fab fa-facebook-square"></i></a>
+                    <a href="https://www.linkedin.com/in/esteban-nahuel-carrizo-69715422b/" rel="noopener"><i className="fab fa-linkedin"></i></a>
+                    <a href="https://api.whatsapp.com/send?phone=5493815360966" rel="noopener"><i className="fab fa-whatsapp"></i></a>
                 </div>
             </div>
         </footer>

@@ -62,8 +62,8 @@ const Project = () => {
                                 <span>-</span> jQuery
                                 <span>-</span> Bootstrap
                             </p>
-                            <a href="https://nahuel61920.github.io/Power-Engine/" className="custom-btn btn" target="_blank"><span>Demo</span></a>
-                            <a href="https://github.com/Nahuel61920/Power-Engine" className="custom-btn btn-codigo" target="_blank">Repository</a>
+                            <a href="https://nahuel61920.github.io/Power-Engine/" className="custom-btn btn" rel="noopener"><span>Demo</span></a>
+                            <a href="https://github.com/Nahuel61920/Power-Engine" className="custom-btn btn-codigo" rel="noopener">Repository</a>
                         </div> 
                     </SwiperSlide>
                     <SwiperSlide className='caja'>
@@ -78,8 +78,8 @@ const Project = () => {
                                     <span>-</span> CSS3
                                     <span>-</span> JavaScript
                                 </p>
-                                <a href="https://nahuel61920.github.io/Power-Engine/" className="custom-btn btn" target="_blank"><span>Demo</span></a>
-                                <a href="https://github.com/Nahuel61920/Power-Engine" className="custom-btn btn-codigo" target="_blank">Repository</a>
+                                <a href="https://nahuel61920.github.io/Power-Engine/" className="custom-btn btn" rel="noopener"><span>Demo</span></a>
+                                <a href="https://github.com/Nahuel61920/Power-Engine" className="custom-btn btn-codigo" rel="noopener">Repository</a>
                         </div>
                     </SwiperSlide>                
                     <SwiperSlide className='caja'>
@@ -95,8 +95,8 @@ const Project = () => {
                                     <span>-</span> JavaScript
                                     <span>-</span> Bootstrap
                                 </p>
-                                <a href="https://nahuel61920.github.io/Spider-Man/" className="custom-btn btn" target="_blank"><span>Demo</span></a>
-                                <a href="https://github.com/Nahuel61920/Spider-Man" className="custom-btn btn-codigo" target="_blank">Repository</a>
+                                <a href="https://nahuel61920.github.io/Spider-Man/" className="custom-btn btn" rel="noopener"><span>Demo</span></a>
+                                <a href="https://github.com/Nahuel61920/Spider-Man" className="custom-btn btn-codigo" rel="noopener">Repository</a>
                         </div>
                     </SwiperSlide>                 
                     <SwiperSlide className='caja'>
@@ -112,8 +112,8 @@ const Project = () => {
                                     <span>-</span> JavaScript
                                     <span>-</span> Bootstrap
                                 </p>
-                                <a href="https://nahuel61920.github.io/Bienes-Raices/" className="custom-btn btn" target="_blank"><span>Demo</span></a>
-                                <a href="https://github.com/Nahuel61920/Bienes-Raices" className="custom-btn btn-codigo" target="_blank">Repository</a>
+                                <a href="https://nahuel61920.github.io/Bienes-Raices/" className="custom-btn btn" rel="noopener"><span>Demo</span></a>
+                                <a href="https://github.com/Nahuel61920/Bienes-Raices" className="custom-btn btn-codigo" rel="noopener">Repository</a>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className='caja'>
@@ -129,8 +129,8 @@ const Project = () => {
                                     <span>-</span> JavaScript
                                     <span>-</span> Sass
                                 </p>
-                                <a href="https://nahuel61920.github.io/PremierFood/" className="custom-btn btn" target="_blank"><span>Demo</span></a>
-                                <a href="https://github.com/Nahuel61920/PremierFood" className="custom-btn btn-codigo" target="_blank">Repository</a>
+                                <a href="https://nahuel61920.github.io/PremierFood/" className="custom-btn btn" rel="noopener"><span>Demo</span></a>
+                                <a href="https://github.com/Nahuel61920/PremierFood" className="custom-btn btn-codigo" rel="noopener">Repository</a>
                         </div>
                     </SwiperSlide>                 
                     <SwiperSlide className='caja'>
@@ -146,8 +146,8 @@ const Project = () => {
                                     <span>-</span> Sass
                                     <span>-</span> JavaScript
                                 </p>
-                                <a href="https://nahuel61920.github.io/shop-tec/" className="custom-btn btn" target="_blank"><span>Demo</span></a>
-                                <a href="https://github.com/Nahuel61920/shop-tec" className="custom-btn btn-codigo" target="_blank">Repository</a>
+                                <a href="https://nahuel61920.github.io/shop-tec/" className="custom-btn btn" rel="noopener"><span>Demo</span></a>
+                                <a href="https://github.com/Nahuel61920/shop-tec" className="custom-btn btn-codigo" rel="noopener">Repository</a>
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className='caja'>
@@ -162,8 +162,8 @@ const Project = () => {
                                     <span>-</span> CSS3
                                     <span>-</span> JavaScript
                                 </p>
-                                <a href="https://nahuel61920.github.io/ElegantHand/ " className="custom-btn btn" target="_blank"><span>Demo</span></a>
-                                <a href="https://github.com/Nahuel61920/ElegantHand" className="custom-btn btn-codigo" target="_blank">Repository</a>
+                                <a href="https://nahuel61920.github.io/ElegantHand/ " className="custom-btn btn" rel="noopener"><span>Demo</span></a>
+                                <a href="https://github.com/Nahuel61920/ElegantHand" className="custom-btn btn-codigo" rel="noopener">Repository</a>
                         </div>
                     </SwiperSlide>                 
                     <SwiperSlide className='caja'>
@@ -178,8 +178,8 @@ const Project = () => {
                                     <span>-</span> CSS3
                                     <span>-</span> JavaScript
                                 </p>
-                                <a href="https://nahuel61920.github.io/vida-en-papel/ " className="custom-btn btn" target="_blank"><span>Demo</span></a>
-                                <a href="https://github.com/Nahuel61920/vida-en-papel" className="custom-btn btn-codigo" target="_blank">Repository</a>
+                                <a href="https://nahuel61920.github.io/vida-en-papel/ " className="custom-btn btn" rel="noopener"><span>Demo</span></a>
+                                <a href="https://github.com/Nahuel61920/vida-en-papel" className="custom-btn btn-codigo" rel="noopener">Repository</a>
                         </div>
                     </SwiperSlide>  
                     <SwiperSlide className='caja'>
@@ -194,8 +194,8 @@ const Project = () => {
                                     <span>-</span> CSS3
                                     <span>-</span> JavaScript
                                 </p>
-                                <a href="https://nahuel61920.github.io/PlusAnime/" className="custom-btn btn" target="_blank"><span>Demo</span></a>
-                                <a href="https://github.com/Nahuel61920/PlusAnime" className="custom-btn btn-codigo" target="_blank">Repository</a>
+                                <a href="https://nahuel61920.github.io/PlusAnime/" className="custom-btn btn" rel="noopener"><span>Demo</span></a>
+                                <a href="https://github.com/Nahuel61920/PlusAnime" className="custom-btn btn-codigo" rel="noopener">Repository</a>
                         </div>
                     </SwiperSlide>                  
                 </Swiper>
