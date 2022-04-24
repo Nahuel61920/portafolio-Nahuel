@@ -1,0 +1,308 @@
+/********************** header **********************/
+
+.site-header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2rem 8% ;
+}
+
+.site-header .logo {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 2.6rem;
+    color: rgb(231, 13, 13);
+}
+
+.site-header .logo span {
+    color: #000;
+}
+
+.navbar{
+    right: 4rem;
+    position: relative;
+}
+.navbar a{
+    font-size: 1.7rem;
+    font-weight: bold;
+    margin: 0 3rem 0 0;
+    color: var(--black);
+    position: relative;
+}
+
+#buttons{
+    display: inline-block;
+    position: fixed;
+}
+
+#buttons img{
+    height: 2rem;
+    margin-right: 1rem;
+}
+
+.navbar img{
+    width: 30px;
+    cursor: pointer;
+}
+
+.navbar a::before{
+    content: "";
+    height: 3px;
+    width: 0;
+    background: var(--green);
+    position: absolute;
+    left: 0;
+    bottom: -1.2rem;
+    transition: 0.4s ease-out;
+}
+
+.navbar a:hover::before{
+    width: 100%;
+}
+
+.navbar .active-link::before,
+.navbar a.active::before{
+    content: "";
+    height: 3px;
+    width: 100%;
+    background: var(--secundario);
+    position: absolute;
+    left: 0;
+    bottom: -1.2rem;
+    transition: 0.4s ease-out;
+}
+
+body.light #darkMode {
+    background: #343d5b;
+    border-radius: 100px;
+    border: none;
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    outline: none;
+    width: 60px;
+    margin-top: .1rem;
+    margin-bottom: .5rem;
+}
+
+body.light #darkMode::after {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    background: #f1f1f1;
+    top: 0;
+    left: 0;
+    right: unset;
+    border-radius: 100px;
+    transition: .3s ease all;
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+
+body.dark #darkMode{
+    background: orange;
+    color: #000;
+    border-radius: 100px;
+    border: none;
+    position: relative;
+    cursor: pointer;
+    display: flex;
+    outline: none;
+    width: 60px;
+    margin-top: .1rem;
+    margin-bottom: .5rem;
+}
+
+body.dark #darkMode::after {
+    content: "";
+    display: block;
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    background: #f1f1f1;
+    top: 0;
+    right: 0;
+    left: unset;
+    border-radius: 100px;
+    transition: .3s ease all;
+    box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+#darkMode span {
+    width: 3rem;
+    height: 3rem;
+    line-height: 3rem;
+    display: block;
+    background: none;
+    color: #fff;
+    padding: 0 0 0 9px;
+    font-size: 1.5rem;
+}
+
+
+
+#acceder-btn .btn{
+    margin-top: 0;
+}
+
+#acceder-btn i{
+    display: none;
+    font-size: 2.5rem;
+    color:var(--light-color);
+    cursor: pointer;
+}
+
+.site-header.activar{
+    box-shadow: var(--box-shadow);
+}
+
+#menu-btn{
+    font-size: 2rem;
+    color: var(--light-color);
+    cursor: pointer;
+    display: none;
+}
+
+
+@media (max-width: 990px) {
+    .site-header{
+        padding: 2rem 4% ;
+    }
+
+    body.light #darkMode::after,
+    body.dark  #darkMode::after{
+        width: 28px;
+        height: 28px;
+        top: 0rem;
+    }
+}
+
+
+
+@media (max-width: 760px) {
+
+    #menu-btn{
+        display: block;
+    }
+
+    #menu-btn.fa-bars{
+        padding: 7px;
+        border: 1px solid rgba(0, 0, 0, 0.1);
+    }
+
+    .site-header .logo {
+        padding-left: 2rem;
+    }
+
+    .site-header .navbar{
+        position: absolute;
+        top: 99%;
+        left: 0;
+        right: 0;
+        background: #fff;
+        border-top: var(--borde);
+        clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+    }
+
+    .site-header .navbar.activar{
+        clip-path: polygon(0 0, 100% 0, 100% 100%, 0 100%);
+    }
+
+    .site-header .navbar a,
+    .site-header .navbar #buttons{
+        display: block;
+        margin: 2rem;
+        font-size: 2rem;
+    }
+
+    .navbar a:hover{
+        color: var(--secundario)!important;
+    }
+
+    .navbar a::before{
+        content: none;
+    }
+
+    .navbar .active::before,
+    .navbar a.active::before,
+    .navbar .active:hover:before{
+        width: 78px;
+    }
+
+    .mas-proyect .navbar .active-link::before,
+    .mas-proyect .navbar a.active::before,
+    .mas-proyect .navbar .active-link:hover:before{
+        width: 100%;
+    }
+
+    #buttons{
+        position: relative;
+    }
+
+    #buttons img{
+        position: relative;
+        margin-right: 2rem;
+        height: 2.5rem;
+    }
+
+    body.light #darkMode,
+    body.dark #darkMode {
+        width: 50px;
+        height: 22px;
+    }
+    
+    body.light #darkMode::after,
+    body.dark #darkMode::after{
+        width: 22px;
+        height: 22px;
+        top: 0;
+    }
+
+    body.light #darkMode span,
+    body.dark #darkMode span {
+        width: 3rem;
+        height: 3rem;
+        line-height: 2.7rem;
+        padding: 0 0 0 4px;
+        font-size: 1.5rem;
+    }
+    
+    .site-header{
+        padding: 1rem 8% ;
+    }
+}
+
+
+@media (max-width: 570px) {
+
+    .site-header{
+        padding: .4rem 5% ;
+    }
+
+
+    body.light #darkMode,
+    body.dark #darkMode {
+        width: 40px;
+        height: 21px;
+    }
+
+    body.light #darkMode::after,
+    body.dark #darkMode::after {
+        width: 21px;
+        height: 21px;
+        top: 0;
+    }
+
+    body.light #darkMode span,
+    body.dark #darkMode span {
+        line-height: 2.7rem;
+        padding: 0.4px 0 0 4px;
+    }
+}

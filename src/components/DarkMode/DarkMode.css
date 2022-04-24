@@ -1,0 +1,242 @@
+body.dark {
+    background: rgb(14, 12, 12);
+}
+
+body.dark section .heading{
+    color: var(--white);
+}
+
+body.dark .btn-codigo {
+    border: 2px solid var(--white);
+    color: var(--white);
+}
+
+body.dark .btn-codigo:hover {
+    background: var(--white);
+    color: var(--black);
+}
+
+/********************** header **********************/
+
+body.dark .site-header {
+    background: #111111;
+}
+
+body.dark .navbar.activar {
+    background-color: #111;
+}
+
+body.dark .logo span {
+    color: var(--white);
+}
+
+body.dark .navbar a{
+    color: var(--white);
+}
+
+body.dark .navbar a.active::before,
+body.dark .navbar .active-link::before {
+    background: var(--green);
+}
+
+/********************** Sobre Mi **********************/
+
+
+body.dark section .row .columns {
+    background: rgb(14, 12, 12);
+    color: var(--light-color);
+}
+
+body.dark section .row .columns h3{
+    color: var(--green);
+}
+
+body.dark section .row .columns h4, 
+body.dark section .row .columns ul li p span{
+    color: var(--white);
+}
+
+body.dark .skill h5{
+    background: var(--white);
+    color: #000;
+}
+
+body.dark main section .row .columns .skill img {
+    filter: grayscale(100%);
+}
+
+body.dark main section .row .columns .skill img:hover {
+    filter: grayscale(0);
+}
+
+
+/********************** Servicios **********************/
+
+body.dark .servicios .row .columns{
+    background: #111;
+    border-bottom: 1rem solid #111;
+    color: var(--light-color);
+}
+
+body.dark .servicios .row .columns:hover{
+    border-bottom: 1rem solid var(--green);
+}
+
+body.dark .servicios .row i{
+    color: var(--light-color);
+}
+
+body.dark .servicios .row .columns:hover i{
+    color: var(--green);
+}
+
+body.dark .servicios .row h3{
+    color: var(--white)!important;
+}
+
+/********************** Proyectos **********************/
+
+body.dark .proyectos .proyectos-slider .caja .content h3{
+    color: var(--white);
+}
+
+body.dark .proyectos .proyectos-slider .caja .content p{
+    color: var(--light-color);
+}
+
+body.dark .proyectos .proyectos-slider .caja .content p span{
+    color: var(--white);
+}
+
+body.dark .proyectos .swiper .swiper-pagination-bullets .swiper-pagination-bullet{
+    background:var(--white);
+}
+
+/********************** Contactos **********************/
+
+body.dark .contactos .titulo{
+    color: var(--white);
+}
+
+body.dark .contactos .site-contacto{
+    color: var(--green);
+}
+
+body.dark .icons a:nth-child(6) .layer span,
+body.dark .icons a:nth-child(6) .text{
+    color: #fff;
+    border-color: #fff;
+}
+
+/********************** Boton up **********************/
+
+
+body.dark .cm-up .cm-icon {
+    background: var(--white);
+	color: var(--black);
+}
+
+
+/********************** Footer **********************/
+
+
+body.dark .footer {
+    background: #111;
+    margin: 0;
+    border-top: 3px solid #111;
+}
+
+body.dark .footer .site-footer .copyright{
+    color: var(--white);
+}
+
+body.dark .footer .site-footer .redes-sociales a{
+    color: var(--white);
+}
+
+
+/********************** Sobre-mi-seccion **********************/
+
+body.dark .sobre-mi-info p{
+    color: var(--light-color);
+}
+
+/********************** Skill seccion **********************/
+
+
+body.dark .skills-img{
+    filter: grayscale(100%);
+}
+
+body.dark .skill-card:hover .skills-img{
+    filter: grayscale(0%);
+}
+body.dark .skill-name{
+    color: var(--white);
+}
+
+body.dark .skill-info{
+    color: var(--light-color);
+}
+
+/********************** Services seccion **********************/
+
+body.dark .site-services .row .columns{
+    background: #111111;
+}
+
+body.dark .site-services .columns .numero{
+    color: var(--white);
+}
+
+body.dark .site-services .row .columns li i {
+    color: var(--green);
+}
+
+
+/********************** Services seccion **********************/
+
+
+body.dark .preguntas .accordion-container .accordion .accordion-heading h3,
+body.dark .preguntas .accordion-container .accordion .accordion-heading i {
+    color: var(--white);
+}
+
+body.dark .preguntas .accordion-container .accordion,
+body.dark .preguntas .accordion-container .accordion.active .accordion-heading,
+body.dark .preguntas .accordion-container .accordion .accordion-heading {
+    background: #111111;
+}
+
+body.dark .preguntas .accordion-container .accordion.active .accordion-heading h3,
+body.dark .preguntas .accordion-container .accordion.active .accordion-heading i {
+    color: var(--green);
+}
+
+body.dark .preguntas .accordion-container .accordion.active .accordioin-content {
+    color: var(--light-color);
+}
+
+/********************** Modal **********************/
+
+body.dark .eins-modal-content{
+    background: #111111;
+    color: var(--light-color);
+}
+
+body.dark .eins-modal-text-2,
+body.dark .eins-modal-text-3 {
+    color: var(--white);
+}
+
+
+
+/********************** Media Q **********************/
+
+
+@media (max-width: 570px) {
+    body.dark .skill h5{
+        background-color: rgb(14, 12, 12);
+        color: #fff;
+    }
+}
