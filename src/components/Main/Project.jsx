@@ -51,6 +51,7 @@ const Project = () => {
                 >
                     <SwiperSlide className='caja'>
                         <img 
+                            alt='proyectos'
                             src={proyectImg(`./proyecto-14.jpg`)}
                         />
                         <div className="content">
@@ -70,7 +71,8 @@ const Project = () => {
                         </div> 
                     </SwiperSlide>
                     <SwiperSlide className='caja'>
-                        <img src={proyectImg(`./proyecto-7.jpg`)}/>
+                        alt='proyectos'<img 
+                        src={proyectImg(`./proyecto-7.jpg`)}/>
                         <div className="content">
                                 <h3>Power Engine</h3>
                                 <p>
@@ -86,7 +88,8 @@ const Project = () => {
                         </div>
                     </SwiperSlide>                
                     <SwiperSlide className='caja'>
-                        <img src={proyectImg(`./proyecto-6.jpg`)}/>
+                        alt='proyectos'<img 
+                        src={proyectImg(`./proyecto-6.jpg`)}/>
                         <div className="content">
                                 <h3>Spider-Man fan page</h3>
                                 <p>
@@ -103,7 +106,8 @@ const Project = () => {
                         </div>
                     </SwiperSlide>                 
                     <SwiperSlide className='caja'>
-                        <img src={proyectImg(`./proyecto-12.jpg`)}/>
+                        alt='proyectos'<img 
+                        src={proyectImg(`./proyecto-12.jpg`)}/>
                         <div className="content">
                                 <h3>EveryRunnig</h3>
                                 <p>
@@ -120,7 +124,8 @@ const Project = () => {
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className='caja'>
-                        <img src={proyectImg(`./proyecto-5.jpg`)}/>
+                        alt='proyectos'<img 
+                        src={proyectImg(`./proyecto-5.jpg`)}/>
                         <div className="content">
                                 <h3>Premier Food</h3>
                                 <p>
@@ -137,7 +142,8 @@ const Project = () => {
                         </div>
                     </SwiperSlide>                 
                     <SwiperSlide className='caja'>
-                        <img src={proyectImg(`./proyecto-8.jpg`)}/>
+                        alt='proyectos'<img 
+                        src={proyectImg(`./proyecto-8.jpg`)}/>
                         <div className="content">
                                 <h3>ShopTec</h3>
                                 <p>
@@ -154,7 +160,8 @@ const Project = () => {
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className='caja'>
-                        <img src={proyectImg(`./proyecto-10.jpg`)}/>
+                        alt='proyectos'<img 
+                        src={proyectImg(`./proyecto-10.jpg`)}/>
                         <div className="content">
                                 <h3>Elegant Hand</h3>
                                 <p>
@@ -170,7 +177,8 @@ const Project = () => {
                         </div>
                     </SwiperSlide>                 
                     <SwiperSlide className='caja'>
-                        <img src={proyectImg(`./proyecto-9.jpg`)}/>
+                        alt='proyectos'<img 
+                        src={proyectImg(`./proyecto-9.jpg`)}/>
                         <div className="content">
                                 <h3>Vida en papel</h3>
                                 <p>
@@ -186,7 +194,8 @@ const Project = () => {
                         </div>
                     </SwiperSlide>  
                     <SwiperSlide className='caja'>
-                        <img src={proyectImg(`./proyecto-11.jpg`)}/>
+                        alt='proyectos'<img 
+                        src={proyectImg(`./proyecto-11.jpg`)}/>
                         <div className="content">
                                 <h3>Plus Anime</h3>
                                 <p>

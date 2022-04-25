@@ -28,7 +28,7 @@ const Contact = () => (
                         'Gmail', 1500, 
                         'WhatsApp', 1500,
                         'Instragram', 1500, 
-                        'Twitter', 1500,
+                        'Telegram', 1500,
                         'Linkedin', 1500, 
                         'Github', 1500,
                     ]}
@@ -73,16 +73,16 @@ const Contact = () => (
                     Instagram
                 </div>
             </a>
-            <a href="#" target="_blank" rel="noopener noreferrer">
+            <a href="https://t.me/estebanU20" target="_blank" rel="noopener noreferrer">
                 <div className="layer">
                     <span></span>
                     <span></span>
                     <span></span>
                     <span></span>
-                    <span className="fab fa-twitter"></span>
+                    <span className="fab fa-telegram"></span>
                 </div>
                 <div className="text">
-                    Twitter
+                    telegram
                 </div>
             </a>
             <a href="https://www.linkedin.com/in/esteban-nahuel-carrizo-69715422b/" target="_blank" rel="noopener noreferrer">
