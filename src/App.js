@@ -4,12 +4,12 @@ import './App.css';
 /* Componet */
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
-import Contenido from './components/Contenido';
 import Main from './components/Main';
+import Contenido from './components/Contenido';
+
 import ScrollToTop from './components/ScrollToTop/ScrollToTop'
 
 function App() {
-
     return (
         <div className='App'>
             <Header/>

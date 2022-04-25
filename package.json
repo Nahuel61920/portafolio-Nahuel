@@ -1,6 +1,6 @@
 {
   "name": "portafolio-react",
-  "version": "0.1.0",
+  "version": "1.2.0",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.3",
@@ -8,6 +8,7 @@
     "@testing-library/user-event": "^13.5.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
+    "react-intl": "^5.25.0",
     "react-scripts": "5.0.0",
     "react-scroll": "^1.8.7",
     "react-typical": "^0.1.3",

@@ -1,28 +1,79 @@
 import React from 'react';
 
+/* Multi idioma */
+import {FormattedMessage} from 'react-intl';
+
 const About = () =>  (
     <section className="sobre-mi" id="sobre-mi">
-        <h2 className="heading" data-section="Nav" data-value="aboult">Sobre mi</h2>
+        <h2 className="heading">
+            <FormattedMessage
+                id='aboult'
+                defaultMessage='Aboult me'
+            />
+        </h2>
 
         <div className="row container">
             <div className="columns">
-                <h3 data-section="Aboult" data-value="im">Quien soy</h3>
-                <h4 data-section="Aboult" data-value="description">Mi nombre es Esteban Carrizo y me especializo en Web Developer</h4>
-                <p data-section="Aboult" data-value="my-description">Me dedico desde hace 1 año al diseño y desarrollo web, estoy en constante aprendizaje en las tecnologías que ya domino, y busco aprender nuevas tecnologías para enriquecer mis habilidades</p>
+                <h3>
+                    <FormattedMessage
+                        id='im'
+                        defaultMessage='who I am'
+                    />
+                </h3>
+                <h4>
+                    <FormattedMessage
+                        id='description'
+                        defaultMessage='My name is Esteban Carrizo and I specialize in Web Developer'
+                    />
+                </h4>
+                <p>
+                    <FormattedMessage
+                        id='my-description'
+                        defaultMessage='I have been dedicated to web design and development for 1 year, I am constantly learning the technologies that I already master, and I seek to learn new technologies to enrich my skills'
+                    />
+                </p>
                 <ul>
                     <li>
-                        <p><span data-section="Aboult" data-value="years">Edad:</span> 22</p>
+                        <p>
+                            <span>
+                                <FormattedMessage
+                                    id='years'
+                                    defaultMessage='Age:'
+                                />
+                            </span> 
+                            22
+                        </p>
                     </li>
                     <li>
                         <p><span>Email:</span> estebancarrizo619@gmail.com</p>
                     </li>
                     <li>
-                        <p><span data-section="Aboult" data-value="from">Desde:</span> Tucumán, Argentina</p>
+                        <p>
+                            <span>
+                                <FormattedMessage
+                                    id='from'
+                                    defaultMessage='From:'
+                                />
+                            </span> 
+                            Tucumán, Argentina
+                        </p>
                     </li>
                 </ul>
                 <div className="mas-info">
-                    <a href="cv/final.docx" download="final.docx" className="custom-btn btn" data-section="Aboult-site" data-value="btn-cv">Descargar CV</a>
-                    <a href="sobre-mi.html" className="custom-btn btn-codigo"><span data-section="Aboult" data-value="btn-know-more">Saber más</span></a>
+                    <a href="cv/final.docx" download="final.docx" className="custom-btn btn">
+                        <FormattedMessage
+                            id='btn-cv'
+                            defaultMessage='Download cv'
+                        />
+                    </a>
+                    <a href="sobre-mi.html" className="custom-btn btn-codigo">
+                        <span>
+                            <FormattedMessage
+                                id='btn-know-more'
+                                defaultMessage='Read more'
+                            />
+                        </span>
+                    </a>
                 </div>
             </div>
             <div className="columns col-skill">
@@ -74,7 +125,12 @@ const About = () =>  (
                         <h5>Angular</h5>
                     </div>
                 </div>
-                <h4 data-section="Aboult" data-value="tools">Herramientas</h4>
+                <h4>
+                    <FormattedMessage
+                        id='tools'
+                        defaultMessage='Tools'
+                    />
+                </h4>
                 <div className="skill">
                     <div>
                         <img alt="figma" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" title="figma"/>

@@ -1,41 +1,114 @@
 import React from 'react';
 
+/* Multi idioma */
+import {FormattedMessage} from 'react-intl';
+
 const Service = () =>  (
     <section className="servicios" id="servicios">
-            <h2 className="heading" data-section="Nav" data-value="services">Servicios</h2>
+            <h2 className="heading">
+                <FormattedMessage
+                    id='services'
+                    defaultMessage='Services'
+                />
+            </h2>
             <div className="row">
                 <div className="columns">
                     <i className="fas fa-drafting-compass"></i>
-                    <h3 data-section="Services" data-value="design">Diseño UX/UI</h3>
-                    <p data-section="Services" data-value="design-info">Diseño de interfaz atractivas para usuarios tanto en web como en móvil, aprovechando al máximo la marca o el producto que el cliente dese explotar en su sitio web</p>
+                    <h3>
+                        <FormattedMessage
+                            id='design'
+                            defaultMessage='ADesign UX/UIboult me'
+                        />
+                    </h3>
+                    <p>
+                        <FormattedMessage
+                            id='design-info'
+                            defaultMessage='Design of attractive interfaces for both web and mobile users, making the most of the brand or product that the client wishes to exploit on their website'
+                        />
+                    </p>
                 </div>
                 <div className="columns">
                     <i className="fas fa-laptop"></i>
-                    <h3 data-section="Services" data-value="development">Desarrollo WEB</h3>
-                    <p data-section="Services" data-value="development-info">Creación de páginas web, bien estructuradas, buen diseño responsivo, paleta de colores atractivas, con interacciones que le den al usuario satisfacción cuando navegue por el sitio web.</p>
+                    <h3>
+                        <FormattedMessage
+                            id='development'
+                            defaultMessage='Web development'
+                        />
+                    </h3>
+                    <p>
+                        <FormattedMessage
+                            id='development-info'
+                            defaultMessage='Creation of well-structured web pages, good responsive design, attractive color palette, with interactions that give the user satisfaction when browsing the website.'
+                        />
+                    </p>
                 </div>
                 <div className="columns" >
                     <i className="fas fa-chart-line"></i>
-                    <h3 data-section="Services" data-value="marketing">Marketing digitals</h3>
-                    <p data-section="Services" data-value="marketing-info">Preparar una estrategia y objetivos para la promoción de la marca que nos proporcione el cliente, utilizando internet u otras plataformas para promover productos y servicios de la marca en cuestión.</p>
+                    <h3>
+                        <FormattedMessage
+                            id='marketing'
+                            defaultMessage='Digital marketing'
+                        />
+                    </h3>
+                    <p>
+                        <FormattedMessage
+                            id='marketing-info'
+                            defaultMessage='Complete maintenance of web pages to detect and solve errors, update content whether text, photos, web design elements, add new functions, etc.'
+                        />
+                    </p>
                 </div>
                 <div className="columns">
                     <i className="fas fa-wrench"></i>
-                    <h3 data-section="Services" data-value="maintenance">Mantenimiento web</h3>
-                    <p data-section="Services" data-value="maintenance-info">Mantenimiento completo de páginas web para detectar y solucionar errores, actualización de contenido ya sean textos, fotos, elementos de diseño web, añadir nuevas funciones, etc.</p>
+                    <h3>
+                        <FormattedMessage
+                            id='maintenance'
+                            defaultMessage='Web maintenance'
+                        />
+                    </h3>
+                    <p>
+                        <FormattedMessage
+                            id='maintenance-info'
+                            defaultMessage='Complete maintenance of web pages to detect and solve errors, update content whether text, photos, web design elements, add new functions, etc.'
+                        />
+                    </p>
                 </div>
                 <div className="columns" >
                     <i className="fas fa-search"></i>
-                    <h3 data-section="Services" data-value="seo">Posicionamiento web (SEO)</h3>
-                    <p data-section="Services" data-value="seo-info">Posicionamiento web mediante SEO, así tu pagina web aparezca en los principales resultados de búsqueda acorde a tu negocio, tanto en Google, Bing, u otros buscadores de internet</p>
+                    <h3>
+                        <FormattedMessage
+                            id='seo'
+                            defaultMessage='Web positioning (SEO)'
+                        />
+                    </h3>
+                    <p>
+                        <FormattedMessage
+                            id='seo-info'
+                            defaultMessage='Web positioning through SEO, so your website appears in the main search results according to your business, both in Google, Bing, or other internet search engines'
+                        />
+                    </p>
                 </div>
                 <div className="columns" >
                     <i className="fas fa-tachometer-alt"></i>
-                    <h3 data-section="Services" data-value="optimization">Optimización web</h3>
-                    <p data-section="Services" data-value="optimization-info">Optimización completa de tu pagina web, mejorando la velocidad de carga, usando imágenes optimizadas,, un buen URL, para dar una mejor experiencia a los usuarios que visiten el sitio web </p>
+                    <h3>
+                        <FormattedMessage
+                            id='optimization'
+                            defaultMessage='Website optimization'
+                        />
+                    </h3>
+                    <p>
+                        <FormattedMessage
+                            id='optimization-info'
+                            defaultMessage='Complete optimization of your web page, improving loading speed, using optimized images, a good URL, to give a better experience to users who visit the website'
+                        />
+                    </p>
                 </div>
             </div>
-            <a href="servicios.html" className="custom-btn btn-codigo portafolio-btn" id="btn-hide" data-section="Aboult" data-value="btn-know-more">Saber más</a>
+            <a href="servicios.html" className="custom-btn btn-codigo portafolio-btn" id="btn-hide">
+                <FormattedMessage
+                    id='btn-know-more'
+                    defaultMessage='Read more'
+                />
+            </a>
     </section>  
 );
 

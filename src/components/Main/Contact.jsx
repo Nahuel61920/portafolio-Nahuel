@@ -1,13 +1,25 @@
 import React from 'react';
+/* TypedJs */
 import Typical from 'react-typical';
+
+/* Multi idioma */
+import {FormattedMessage} from 'react-intl';
 
 const Contact = () => (
 
     <section className="contactos" id="contactos">
 
-        <h2 className="heading" data-section="Nav" data-value="contact">Contactos</h2>
+        <h2 className="heading">
+            <FormattedMessage
+                id='contact'
+                defaultMessage='Contact'
+            />
+        </h2>
         <h3 className="titulo">
-            Contact:{' '}
+            <FormattedMessage
+                id='contact-info'
+                defaultMessage='Contact me by: '
+                />
                 <Typical 
                     className="site-contacto"
                     loop={Infinity}
@@ -21,10 +33,11 @@ const Contact = () => (
                         'Github', 1500,
                     ]}
                 />
+            
         </h3>
 
         <div className="icons">
-            <a href="mailto:estebancarrizo619@gmail.com" rel="noopener">
+            <a href="mailto:estebancarrizo619@gmail.com" target="_blank" rel="noopener noreferrer">
                 <div className="layer">
                     <span></span>
                     <span></span>
@@ -36,7 +49,7 @@ const Contact = () => (
                     Gmail
                 </div>
             </a>
-            <a href="https://api.whatsapp.com/send?phone=5493815360966" rel="noopener">
+            <a href="https://api.whatsapp.com/send?phone=5493815360966" target="_blank" rel="noopener noreferrer">
                 <div className="layer">
                     <span></span>
                     <span></span>
@@ -48,7 +61,7 @@ const Contact = () => (
                     Whatsapp
                 </div>
             </a>
-            <a href="https://www.instagram.com/nahuelcarrizolc/" rel="noopener">
+            <a href="https://www.instagram.com/nahuelcarrizolc/" target="_blank" rel="noopener noreferrer">
                 <div className="layer">
                     <span></span>
                     <span></span>
@@ -60,7 +73,7 @@ const Contact = () => (
                     Instagram
                 </div>
             </a>
-            <a href="#" rel="noopener">
+            <a href="#" target="_blank" rel="noopener noreferrer">
                 <div className="layer">
                     <span></span>
                     <span></span>
@@ -72,7 +85,7 @@ const Contact = () => (
                     Twitter
                 </div>
             </a>
-            <a href="https://www.linkedin.com/in/esteban-nahuel-carrizo-69715422b/" rel="noopener">
+            <a href="https://www.linkedin.com/in/esteban-nahuel-carrizo-69715422b/" target="_blank" rel="noopener noreferrer">
                 <div className="layer">
                     <span></span>
                     <span></span>
@@ -84,7 +97,7 @@ const Contact = () => (
                     Linkedin
                 </div>
             </a>
-            <a href="https://github.com/Nahuel61920/" rel="noopener">
+            <a href="https://github.com/Nahuel61920/" target="_blank" rel="noopener noreferrer">
                 <div className="layer">
                     <span></span>
                     <span></span>
