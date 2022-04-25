@@ -71,8 +71,9 @@ const Project = () => {
                         </div> 
                     </SwiperSlide>
                     <SwiperSlide className='caja'>
-                        alt='proyectos'<img 
-                        src={proyectImg(`./proyecto-7.jpg`)}/>
+                        <img
+                            alt='proyectos' 
+                            src={proyectImg(`./proyecto-7.jpg`)}/>
                         <div className="content">
                                 <h3>Power Engine</h3>
                                 <p>
@@ -88,8 +89,9 @@ const Project = () => {
                         </div>
                     </SwiperSlide>                
                     <SwiperSlide className='caja'>
-                        alt='proyectos'<img 
-                        src={proyectImg(`./proyecto-6.jpg`)}/>
+                        <img
+                            alt='proyectos' 
+                            src={proyectImg(`./proyecto-6.jpg`)}/>
                         <div className="content">
                                 <h3>Spider-Man fan page</h3>
                                 <p>
@@ -106,8 +108,9 @@ const Project = () => {
                         </div>
                     </SwiperSlide>                 
                     <SwiperSlide className='caja'>
-                        alt='proyectos'<img 
-                        src={proyectImg(`./proyecto-12.jpg`)}/>
+                        <img
+                            alt='proyectos' 
+                            src={proyectImg(`./proyecto-12.jpg`)}/>
                         <div className="content">
                                 <h3>EveryRunnig</h3>
                                 <p>
@@ -124,8 +127,9 @@ const Project = () => {
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className='caja'>
-                        alt='proyectos'<img 
-                        src={proyectImg(`./proyecto-5.jpg`)}/>
+                        <img
+                            alt='proyectos' 
+                            src={proyectImg(`./proyecto-5.jpg`)}/>
                         <div className="content">
                                 <h3>Premier Food</h3>
                                 <p>
@@ -142,8 +146,9 @@ const Project = () => {
                         </div>
                     </SwiperSlide>                 
                     <SwiperSlide className='caja'>
-                        alt='proyectos'<img 
-                        src={proyectImg(`./proyecto-8.jpg`)}/>
+                        <img
+                            alt='proyectos' 
+                            src={proyectImg(`./proyecto-8.jpg`)}/>
                         <div className="content">
                                 <h3>ShopTec</h3>
                                 <p>
@@ -160,8 +165,9 @@ const Project = () => {
                         </div>
                     </SwiperSlide>
                     <SwiperSlide className='caja'>
-                        alt='proyectos'<img 
-                        src={proyectImg(`./proyecto-10.jpg`)}/>
+                        <img
+                            alt='proyectos' 
+                            src={proyectImg(`./proyecto-10.jpg`)}/>
                         <div className="content">
                                 <h3>Elegant Hand</h3>
                                 <p>
@@ -177,8 +183,9 @@ const Project = () => {
                         </div>
                     </SwiperSlide>                 
                     <SwiperSlide className='caja'>
-                        alt='proyectos'<img 
-                        src={proyectImg(`./proyecto-9.jpg`)}/>
+                        <img
+                            alt='proyectos' 
+                            src={proyectImg(`./proyecto-9.jpg`)}/>
                         <div className="content">
                                 <h3>Vida en papel</h3>
                                 <p>
@@ -194,8 +201,9 @@ const Project = () => {
                         </div>
                     </SwiperSlide>  
                     <SwiperSlide className='caja'>
-                        alt='proyectos'<img 
-                        src={proyectImg(`./proyecto-11.jpg`)}/>
+                        <img
+                            alt='proyectos' 
+                            src={proyectImg(`./proyecto-11.jpg`)}/>
                         <div className="content">
                                 <h3>Plus Anime</h3>
                                 <p>

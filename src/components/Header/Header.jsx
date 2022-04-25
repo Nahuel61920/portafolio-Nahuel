@@ -32,7 +32,7 @@ const Header = () => {
             <div id="menu-btn" className="fas fa-bars" onClick={menuDesplegable}></div>
 
             <a href="#inicio" className="logo">
-                <p>(<span>NAHUEL61920</span>)</p>
+                <p>=(<span>NAHUEL61920</span>)=></p>
             </a>
 
             <nav className="navbar">
