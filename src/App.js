@@ -1,30 +1,31 @@
 import React from 'react';
-import './App.css';
-import ParticlesBackground from './components/Particles/ParticlesBackground'
+import "./App.css";
 
 /* Componet */
 import Header from './components/Header/Header';
 import Footer from './components/Footer/Footer';
 import Main from './components/Main';
 import Contenido from './components/Contenido';
+
+import ParticleBackground from "./components/ParticleBackground/ParticleBackground";
 import ScrollToTop from './components/ScrollToTop/ScrollToTop'
 
 function App() {
-    return (
-        <div className='App'>
-            <Header/>
+  return (
+    <div className='App'>
+      <Header/>
+      
+      <ParticleBackground />
 
-            <Contenido/>
+      <Contenido/>
 
-            <ParticlesBackground />
+      <Main/>
 
-            <Main/>
+      <ScrollToTop/>
 
-            <ScrollToTop/>
-
-            <Footer/>
-        </div>
-    )
+      <Footer/>
+    </div>
+  );
 }
 
-export default App
+export default App;

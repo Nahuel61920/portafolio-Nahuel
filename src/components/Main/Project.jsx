@@ -4,15 +4,21 @@ import React from 'react';
 import {FormattedMessage} from 'react-intl';
 
 /* Swiper */
-import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/css';
-import "swiper/css/pagination";
+import 'swiper/swiper.min.css';
+import 'swiper/modules/pagination/pagination.min.css';
+import { Swiper, SwiperSlide } from 'swiper/react/swiper-react';
 import { Pagination, Autoplay } from "swiper";
 
-
 /* Img */
-const proyectImg = require.context('../../img', true);
-
+import Proyect5 from '../../img/proyecto-5.jpg';
+import Proyect6 from '../../img/proyecto-6.jpg';
+import Proyect7 from '../../img/proyecto-7.jpg';
+import Proyect8 from '../../img/proyecto-8.jpg';
+import Proyect9 from '../../img/proyecto-9.jpg';
+import Proyect10 from '../../img/proyecto-10.jpg';
+import Proyect11 from '../../img/proyecto-11.jpg';
+import Proyect12 from '../../img/proyecto-12.jpg';
+import Proyect14 from '../../img/proyecto-14.jpg';
 
 const Project = () => {
     return (
@@ -50,9 +56,10 @@ const Project = () => {
                     className='proyectos-slider mySwiper'
                 >
                     <SwiperSlide className='caja'>
-                        <img 
+                        <img
+                            src={Proyect14} 
                             alt='proyectos'
-                            src={proyectImg(`./proyecto-14.jpg`)}
+
                         />
                         <div className="content">
                             <h3>Justice</h3>
@@ -72,8 +79,9 @@ const Project = () => {
                     </SwiperSlide>
                     <SwiperSlide className='caja'>
                         <img
-                            alt='proyectos' 
-                            src={proyectImg(`./proyecto-7.jpg`)}/>
+                            src={Proyect7} 
+                            alt='proyectos'     
+                        />
                         <div className="content">
                                 <h3>Power Engine</h3>
                                 <p>
@@ -89,9 +97,10 @@ const Project = () => {
                         </div>
                     </SwiperSlide>                
                     <SwiperSlide className='caja'>
-                        <img
-                            alt='proyectos' 
-                            src={proyectImg(`./proyecto-6.jpg`)}/>
+                    <img
+                            src={Proyect6} 
+                            alt='proyectos'     
+                        />
                         <div className="content">
                                 <h3>Spider-Man fan page</h3>
                                 <p>
@@ -109,8 +118,9 @@ const Project = () => {
                     </SwiperSlide>                 
                     <SwiperSlide className='caja'>
                         <img
-                            alt='proyectos' 
-                            src={proyectImg(`./proyecto-12.jpg`)}/>
+                            src={Proyect12} 
+                            alt='proyectos'     
+                        />
                         <div className="content">
                                 <h3>EveryRunnig</h3>
                                 <p>
@@ -128,8 +138,9 @@ const Project = () => {
                     </SwiperSlide>
                     <SwiperSlide className='caja'>
                         <img
-                            alt='proyectos' 
-                            src={proyectImg(`./proyecto-5.jpg`)}/>
+                            src={Proyect5} 
+                            alt='proyectos'     
+                        />
                         <div className="content">
                                 <h3>Premier Food</h3>
                                 <p>
@@ -147,8 +158,9 @@ const Project = () => {
                     </SwiperSlide>                 
                     <SwiperSlide className='caja'>
                         <img
-                            alt='proyectos' 
-                            src={proyectImg(`./proyecto-8.jpg`)}/>
+                            src={Proyect8} 
+                            alt='proyectos'     
+                        />
                         <div className="content">
                                 <h3>ShopTec</h3>
                                 <p>
@@ -166,8 +178,9 @@ const Project = () => {
                     </SwiperSlide>
                     <SwiperSlide className='caja'>
                         <img
-                            alt='proyectos' 
-                            src={proyectImg(`./proyecto-10.jpg`)}/>
+                            src={Proyect10} 
+                            alt='proyectos'     
+                        />
                         <div className="content">
                                 <h3>Elegant Hand</h3>
                                 <p>
@@ -184,8 +197,9 @@ const Project = () => {
                     </SwiperSlide>                 
                     <SwiperSlide className='caja'>
                         <img
-                            alt='proyectos' 
-                            src={proyectImg(`./proyecto-9.jpg`)}/>
+                            src={Proyect9} 
+                            alt='proyectos'     
+                        />
                         <div className="content">
                                 <h3>Vida en papel</h3>
                                 <p>
@@ -202,8 +216,9 @@ const Project = () => {
                     </SwiperSlide>  
                     <SwiperSlide className='caja'>
                         <img
-                            alt='proyectos' 
-                            src={proyectImg(`./proyecto-11.jpg`)}/>
+                            src={Proyect11} 
+                            alt='proyectos'     
+                        />
                         <div className="content">
                                 <h3>Plus Anime</h3>
                                 <p>
@@ -228,6 +243,7 @@ const Project = () => {
                     />
                 </a>
         </section>
+        
     )
 };
 export default React.memo(Project);

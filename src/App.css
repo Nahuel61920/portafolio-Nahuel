@@ -129,17 +129,6 @@ main {
 }
 
 
-/********************** Particles **********************/
-
-#tsparticles {
-	height: 100vh; 
-	width: 100%;
-    position: fixed;
-    z-index: -1;
-}
-
-
-
 /********************** Inicio **********************/
 
 .contenido {
@@ -179,7 +168,7 @@ main {
 .wrapper .button{
     display: flex;
     flex-direction: row;
-    justify-content: start;
+    justify-content: flex-start;
     height: 60px;
     width: 60px;
     float: left;
