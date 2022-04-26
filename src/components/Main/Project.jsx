@@ -29,7 +29,7 @@ const Project = () => {
                     defaultMessage='Projects'
                 />
             </h2>
-            <div className="proyect-site">
+            <div className="proyect-site" data-aos="fade-right" data-aos-delay="300">
                 <Swiper
                     spaceBetween={30}
                     loop={true}

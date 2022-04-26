@@ -12,7 +12,7 @@ const Service = () =>  (
                 />
             </h2>
             <div className="row">
-                <div className="columns">
+                <div className="columns" data-aos="fade-up" data-aos-delay="200">
                     <i className="fas fa-drafting-compass"></i>
                     <h3>
                         <FormattedMessage
@@ -27,7 +27,7 @@ const Service = () =>  (
                         />
                     </p>
                 </div>
-                <div className="columns">
+                <div className="columns" data-aos="fade-up" data-aos-delay="300">
                     <i className="fas fa-laptop"></i>
                     <h3>
                         <FormattedMessage
@@ -42,7 +42,7 @@ const Service = () =>  (
                         />
                     </p>
                 </div>
-                <div className="columns" >
+                <div className="columns" data-aos="fade-up" data-aos-delay="400">
                     <i className="fas fa-chart-line"></i>
                     <h3>
                         <FormattedMessage
@@ -57,7 +57,7 @@ const Service = () =>  (
                         />
                     </p>
                 </div>
-                <div className="columns">
+                <div className="columns" data-aos="fade-up" data-aos-delay="500">
                     <i className="fas fa-wrench"></i>
                     <h3>
                         <FormattedMessage
@@ -72,7 +72,7 @@ const Service = () =>  (
                         />
                     </p>
                 </div>
-                <div className="columns" >
+                <div className="columns" data-aos="fade-up" data-aos-delay="600">
                     <i className="fas fa-search"></i>
                     <h3>
                         <FormattedMessage
@@ -87,7 +87,7 @@ const Service = () =>  (
                         />
                     </p>
                 </div>
-                <div className="columns" >
+                <div className="columns" data-aos="fade-up" data-aos-delay="700">
                     <i className="fas fa-tachometer-alt"></i>
                     <h3>
                         <FormattedMessage

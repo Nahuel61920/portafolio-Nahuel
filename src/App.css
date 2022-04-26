@@ -43,6 +43,17 @@ main {
     overflow: hidden!important;
 }
 
+
+.loading-pag {
+    text-align: center;
+    background: rgb(14, 12, 12);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;
+}
+
 .heading{
     text-align: center;
     padding-bottom: 3rem;

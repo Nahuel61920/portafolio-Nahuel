@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState, useEffect} from 'react';
 import './App.css';
 
 /* Componet */
@@ -7,23 +7,49 @@ import Footer from './components/Footer/Footer';
 import Main from './components/Main';
 import Contenido from './components/Contenido';
 import ParticleBackground from "./components/ParticlesBg/ParticleBackground";
-
 import ScrollToTop from './components/ScrollToTop/ScrollToTop'
 
+/* Loading spinner */
+import HashLoader from "react-spinners/HashLoader";
+
 function App() {
+    const [loading, setLoading] = useState(false);
+
+    useEffect(() => {
+        setLoading(true)
+        setTimeout(() => {
+            setLoading(false)
+        }, 4000)
+    }, [])
     return (
         <div className='App'>
-            <Header/>
-            
-            <ParticleBackground />
+            {
+                loading ? 
+                
+                <div className='loading-pag'>
+                    <HashLoader
+                        color={"#00e5fe"} 
+                        loading={loading}
+                        size={150} 
+                    />
+                </div>
+                
+                    :
 
-            <Contenido/>
+                <div>
+                    <Header/>
+                    
+                    <ParticleBackground />
 
-            <Main/>
+                    <Contenido/>
 
-            <ScrollToTop/>
+                    <Main/>
 
-            <Footer/>
+                    <ScrollToTop/>
+
+                    <Footer/>
+                </div>
+            }
         </div>
     )
 }
