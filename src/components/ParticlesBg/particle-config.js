@@ -17,7 +17,7 @@ const particlesConfig = {
         color: "#000"
       },
       polygon: {
-        nb_sides: 5
+        sides: 6
       },
       image: {
         src: "img/github.svg",

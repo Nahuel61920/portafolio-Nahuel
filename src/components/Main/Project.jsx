@@ -9,10 +9,8 @@ import 'swiper/css';
 import "swiper/css/pagination";
 import { Pagination, Autoplay } from "swiper";
 
-
 /* Img */
 const proyectImg = require.context('../../img', true);
-
 
 const Project = () => {
     return (
@@ -23,7 +21,7 @@ const Project = () => {
                     defaultMessage='Projects'
                 />
             </h2>
-            <div className="proyect-site">
+            <div className="proyect-site" data-aos="fade-right" data-aos-delay="300">
                 <Swiper
                     spaceBetween={30}
                     loop={true}
@@ -50,9 +48,10 @@ const Project = () => {
                     className='proyectos-slider mySwiper'
                 >
                     <SwiperSlide className='caja'>
-                        <img 
+                        <img
+                            src={proyectImg(`./proyecto-14.jpg`)} 
                             alt='proyectos'
-                            src={proyectImg(`./proyecto-14.jpg`)}
+
                         />
                         <div className="content">
                             <h3>Justice</h3>
@@ -72,8 +71,9 @@ const Project = () => {
                     </SwiperSlide>
                     <SwiperSlide className='caja'>
                         <img
-                            alt='proyectos' 
-                            src={proyectImg(`./proyecto-7.jpg`)}/>
+                            src={proyectImg(`./proyecto-7.jpg`)} 
+                            alt='proyectos'     
+                        />
                         <div className="content">
                                 <h3>Power Engine</h3>
                                 <p>
@@ -89,9 +89,10 @@ const Project = () => {
                         </div>
                     </SwiperSlide>                
                     <SwiperSlide className='caja'>
-                        <img
-                            alt='proyectos' 
-                            src={proyectImg(`./proyecto-6.jpg`)}/>
+                    <img
+                            src={proyectImg(`./proyecto-6.jpg`)} 
+                            alt='proyectos'     
+                        />
                         <div className="content">
                                 <h3>Spider-Man fan page</h3>
                                 <p>
@@ -109,8 +110,9 @@ const Project = () => {
                     </SwiperSlide>                 
                     <SwiperSlide className='caja'>
                         <img
-                            alt='proyectos' 
-                            src={proyectImg(`./proyecto-12.jpg`)}/>
+                            src={proyectImg(`./proyecto-12.jpg`)}
+                            alt='proyectos'     
+                        />
                         <div className="content">
                                 <h3>EveryRunnig</h3>
                                 <p>
@@ -128,8 +130,9 @@ const Project = () => {
                     </SwiperSlide>
                     <SwiperSlide className='caja'>
                         <img
-                            alt='proyectos' 
-                            src={proyectImg(`./proyecto-5.jpg`)}/>
+                            src={proyectImg(`./proyecto-5.jpg`)} 
+                            alt='proyectos'     
+                        />
                         <div className="content">
                                 <h3>Premier Food</h3>
                                 <p>
@@ -147,8 +150,9 @@ const Project = () => {
                     </SwiperSlide>                 
                     <SwiperSlide className='caja'>
                         <img
-                            alt='proyectos' 
-                            src={proyectImg(`./proyecto-8.jpg`)}/>
+                            src={proyectImg(`./proyecto-8.jpg`)}
+                            alt='proyectos'     
+                        />
                         <div className="content">
                                 <h3>ShopTec</h3>
                                 <p>
@@ -166,8 +170,9 @@ const Project = () => {
                     </SwiperSlide>
                     <SwiperSlide className='caja'>
                         <img
-                            alt='proyectos' 
-                            src={proyectImg(`./proyecto-10.jpg`)}/>
+                            src={proyectImg(`./proyecto-10.jpg`)} 
+                            alt='proyectos'     
+                        />
                         <div className="content">
                                 <h3>Elegant Hand</h3>
                                 <p>
@@ -184,8 +189,9 @@ const Project = () => {
                     </SwiperSlide>                 
                     <SwiperSlide className='caja'>
                         <img
-                            alt='proyectos' 
-                            src={proyectImg(`./proyecto-9.jpg`)}/>
+                            src={proyectImg(`./proyecto-9.jpg`)}
+                            alt='proyectos'     
+                        />
                         <div className="content">
                                 <h3>Vida en papel</h3>
                                 <p>
@@ -202,8 +208,9 @@ const Project = () => {
                     </SwiperSlide>  
                     <SwiperSlide className='caja'>
                         <img
-                            alt='proyectos' 
-                            src={proyectImg(`./proyecto-11.jpg`)}/>
+                            src={proyectImg(`./proyecto-11.jpg`)} 
+                            alt='proyectos'     
+                        />
                         <div className="content">
                                 <h3>Plus Anime</h3>
                                 <p>
@@ -228,6 +235,7 @@ const Project = () => {
                     />
                 </a>
         </section>
+        
     )
 };
 export default React.memo(Project);
