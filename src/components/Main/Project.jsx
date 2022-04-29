@@ -9,16 +9,10 @@ import 'swiper/css';
 import "swiper/css/pagination";
 import { Pagination, Autoplay } from "swiper";
 
+
 /* Img */
-import Proyect5 from '../../img/proyecto-5.jpg';
-import Proyect6 from '../../img/proyecto-6.jpg';
-import Proyect7 from '../../img/proyecto-7.jpg';
-import Proyect8 from '../../img/proyecto-8.jpg';
-import Proyect9 from '../../img/proyecto-9.jpg';
-import Proyect10 from '../../img/proyecto-10.jpg';
-import Proyect11 from '../../img/proyecto-11.jpg';
-import Proyect12 from '../../img/proyecto-12.jpg';
-import Proyect14 from '../../img/proyecto-14.jpg';
+const proyectImg = require.context('../../img', true);
+
 
 const Project = () => {
     return (
@@ -29,7 +23,7 @@ const Project = () => {
                     defaultMessage='Projects'
                 />
             </h2>
-            <div className="proyect-site" data-aos="fade-right" data-aos-delay="300">
+            <div className="proyect-site">
                 <Swiper
                     spaceBetween={30}
                     loop={true}
@@ -56,10 +50,9 @@ const Project = () => {
                     className='proyectos-slider mySwiper'
                 >
                     <SwiperSlide className='caja'>
-                        <img
-                            src={Proyect14} 
+                        <img 
                             alt='proyectos'
-
+                            src={proyectImg(`./proyecto-14.jpg`)}
                         />
                         <div className="content">
                             <h3>Justice</h3>
@@ -79,9 +72,8 @@ const Project = () => {
                     </SwiperSlide>
                     <SwiperSlide className='caja'>
                         <img
-                            src={Proyect7} 
-                            alt='proyectos'     
-                        />
+                            alt='proyectos' 
+                            src={proyectImg(`./proyecto-7.jpg`)}/>
                         <div className="content">
                                 <h3>Power Engine</h3>
                                 <p>
@@ -97,10 +89,9 @@ const Project = () => {
                         </div>
                     </SwiperSlide>                
                     <SwiperSlide className='caja'>
-                    <img
-                            src={Proyect6} 
-                            alt='proyectos'     
-                        />
+                        <img
+                            alt='proyectos' 
+                            src={proyectImg(`./proyecto-6.jpg`)}/>
                         <div className="content">
                                 <h3>Spider-Man fan page</h3>
                                 <p>
@@ -118,9 +109,8 @@ const Project = () => {
                     </SwiperSlide>                 
                     <SwiperSlide className='caja'>
                         <img
-                            src={Proyect12} 
-                            alt='proyectos'     
-                        />
+                            alt='proyectos' 
+                            src={proyectImg(`./proyecto-12.jpg`)}/>
                         <div className="content">
                                 <h3>EveryRunnig</h3>
                                 <p>
@@ -138,9 +128,8 @@ const Project = () => {
                     </SwiperSlide>
                     <SwiperSlide className='caja'>
                         <img
-                            src={Proyect5} 
-                            alt='proyectos'     
-                        />
+                            alt='proyectos' 
+                            src={proyectImg(`./proyecto-5.jpg`)}/>
                         <div className="content">
                                 <h3>Premier Food</h3>
                                 <p>
@@ -158,9 +147,8 @@ const Project = () => {
                     </SwiperSlide>                 
                     <SwiperSlide className='caja'>
                         <img
-                            src={Proyect8} 
-                            alt='proyectos'     
-                        />
+                            alt='proyectos' 
+                            src={proyectImg(`./proyecto-8.jpg`)}/>
                         <div className="content">
                                 <h3>ShopTec</h3>
                                 <p>
@@ -178,9 +166,8 @@ const Project = () => {
                     </SwiperSlide>
                     <SwiperSlide className='caja'>
                         <img
-                            src={Proyect10} 
-                            alt='proyectos'     
-                        />
+                            alt='proyectos' 
+                            src={proyectImg(`./proyecto-10.jpg`)}/>
                         <div className="content">
                                 <h3>Elegant Hand</h3>
                                 <p>
@@ -197,9 +184,8 @@ const Project = () => {
                     </SwiperSlide>                 
                     <SwiperSlide className='caja'>
                         <img
-                            src={Proyect9} 
-                            alt='proyectos'     
-                        />
+                            alt='proyectos' 
+                            src={proyectImg(`./proyecto-9.jpg`)}/>
                         <div className="content">
                                 <h3>Vida en papel</h3>
                                 <p>
@@ -216,9 +202,8 @@ const Project = () => {
                     </SwiperSlide>  
                     <SwiperSlide className='caja'>
                         <img
-                            src={Proyect11} 
-                            alt='proyectos'     
-                        />
+                            alt='proyectos' 
+                            src={proyectImg(`./proyecto-11.jpg`)}/>
                         <div className="content">
                                 <h3>Plus Anime</h3>
                                 <p>
@@ -243,7 +228,6 @@ const Project = () => {
                     />
                 </a>
         </section>
-        
     )
 };
 export default React.memo(Project);

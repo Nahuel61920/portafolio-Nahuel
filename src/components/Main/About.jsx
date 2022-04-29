@@ -13,7 +13,7 @@ const About = () =>  (
         </h2>
 
         <div className="row container">
-            <div className="columns" data-aos="fade-right" data-aos-delay="300">
+            <div className="columns">
                 <h3>
                     <FormattedMessage
                         id='im'
@@ -76,7 +76,7 @@ const About = () =>  (
                     </a>
                 </div>
             </div>
-            <div className="columns col-skill" data-aos="fade-left" data-aos-delay="500">
+            <div className="columns col-skill">
                 <h3>skills</h3>
                 <h4>Front-End</h4>
                 <div className="skill">
