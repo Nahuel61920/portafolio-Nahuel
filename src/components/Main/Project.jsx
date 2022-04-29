@@ -4,9 +4,9 @@ import React from 'react';
 import {FormattedMessage} from 'react-intl';
 
 /* Swiper */
-import 'swiper/swiper.min.css';
-import 'swiper/modules/pagination/pagination.min.css';
-import { Swiper, SwiperSlide } from 'swiper/react/swiper-react';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/css';
+import "swiper/css/pagination";
 import { Pagination, Autoplay } from "swiper";
 
 /* Img */
