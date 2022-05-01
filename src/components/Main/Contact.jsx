@@ -3,7 +3,7 @@ import React from 'react';
 import Typical from 'react-typical';
 
 /* Multi idioma */
-import {FormattedMessage} from 'react-intl';
+import { FormattedMessage } from 'react-intl';
 
 const Contact = () => (
 
@@ -19,21 +19,21 @@ const Contact = () => (
             <FormattedMessage
                 id='contact-info'
                 defaultMessage='Contact me by: '
-                />
-                <Typical 
-                    className="site-contacto"
-                    loop={Infinity}
-                    wrapper="b"
-                    steps={[
-                        'Gmail', 1500, 
-                        'WhatsApp', 1500,
-                        'Instragram', 1500, 
-                        'Telegram', 1500,
-                        'Linkedin', 1500, 
-                        'Github', 1500,
-                    ]}
-                />
-            
+            />
+            <Typical
+                className="site-contacto"
+                loop={Infinity}
+                wrapper="b"
+                steps={[
+                    'Gmail', 1500,
+                    'WhatsApp', 1500,
+                    'Instragram', 1500,
+                    'Telegram', 1500,
+                    'Linkedin', 1500,
+                    'Github', 1500,
+                ]}
+            />
+
         </h3>
 
         <div className="icons">

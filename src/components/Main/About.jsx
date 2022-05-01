@@ -76,7 +76,7 @@ const About = () =>  (
                     </a>
                 </div>
             </div>
-            <div className="columns col-skill" data-aos="fade-left" data-aos-delay="500">
+            <div className="columns col-skill" data-aos="fade-left" data-aos-delay="650">
                 <h3>skills</h3>
                 <h4>Front-End</h4>
                 <div className="skill">
@@ -153,4 +153,4 @@ const About = () =>  (
     </section>
 );
 
-export default About;
+export default React.memo(About);

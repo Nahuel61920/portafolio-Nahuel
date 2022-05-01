@@ -112,4 +112,4 @@ const Service = () =>  (
     </section>  
 );
 
-export default Service;
+export default React.memo(Service);

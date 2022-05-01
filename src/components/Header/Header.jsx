@@ -1,4 +1,4 @@
-import React, {useContext} from "react";
+import React, { useContext } from "react";
 import './Header.css';
 /* ReactScroll */
 import { Link } from 'react-scroll';
@@ -7,27 +7,27 @@ import { Link } from 'react-scroll';
 import DarkMode from '../DarkMode/DarkMode';
 
 /* Language */
-import {FormattedMessage} from "react-intl";
-import {langContext} from '../../context/Context';
+import { FormattedMessage } from "react-intl";
+import { langContext } from '../../context/Context';
 
 const Header = () => {
     // Buttom language
     const idioma = useContext(langContext);
     // Menu desplegable
-    const menuDesplegable = () =>{
+    const menuDesplegable = () => {
         let navbar = document.querySelector('.navbar');
         navbar.classList.toggle("activar");
 
         window.onscroll = () => {
-            if(window.scrollY > 0){
-            document.querySelector(".site-header").classList.add("activar")
-            }else document.querySelector(".site-header").classList.remove("activar")
-        
+            if (window.scrollY > 0) {
+                document.querySelector(".site-header").classList.add("activar")
+            } else document.querySelector(".site-header").classList.remove("activar")
+
             navbar.classList.remove("activar")
         }
     }
 
-    return(
+    return (
         <header className="site-header">
             <div id="menu-btn" className="fas fa-bars" onClick={menuDesplegable}></div>
 
@@ -78,4 +78,4 @@ const Header = () => {
     )
 }
 
-export default Header;
+export default React.memo(Header);

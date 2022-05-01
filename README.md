@@ -1,5 +1,3 @@
- # Portfolio Nahuel61920 1.5.0 🖥️
- 
- ### Developed in react
+# Portfolio Nahuel61920 1.2.0 🖥️
 
 ![preview img](/preview.png)

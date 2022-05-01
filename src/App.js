@@ -1,4 +1,4 @@
-import React, {useState, useEffect} from 'react';
+import React, { useState, useEffect } from 'react';
 import './App.css';
 
 /* Componet */
@@ -24,31 +24,31 @@ function App() {
     return (
         <div className='App'>
             {
-                loading ? 
-                
-                <div className='loading-pag'>
-                    <HashLoader
-                        color={"#00e5fe"} 
-                        loading={loading}
-                        size={150} 
-                    />
-                </div>
-                
+                loading ?
+
+                    <div className='loading-pag'>
+                        <HashLoader
+                            color={"#00e5fe"}
+                            loading={loading}
+                            size={150}
+                        />
+                    </div>
+
                     :
 
-                <div>
-                    <Header/>
-                    
-                    <ParticleBackground />
+                    <div>
+                        <Header />
 
-                    <Contenido/>
+                        <ParticleBackground />
 
-                    <Main/>
+                        <Contenido />
 
-                    <ScrollToTop/>
+                        <Main />
 
-                    <Footer/>
-                </div>
+                        <ScrollToTop />
+
+                        <Footer />
+                    </div>
             }
         </div>
     )
