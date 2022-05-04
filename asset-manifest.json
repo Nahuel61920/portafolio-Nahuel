@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/PortafolioReact/static/css/main.d11b0a5c.css",
-    "main.js": "/PortafolioReact/static/js/main.436ea732.js",
+    "main.css": "/PortafolioReact/static/css/main.0799fada.css",
+    "main.js": "/PortafolioReact/static/js/main.aae648dc.js",
     "static/js/787.96b18b2c.chunk.js": "/PortafolioReact/static/js/787.96b18b2c.chunk.js",
     "static/media/inicio.png": "/PortafolioReact/static/media/inicio.9e191e0f2820064e6d28.png",
     "static/media/Waiting.gif": "/PortafolioReact/static/media/Waiting.103e375040962eb49beb.gif",
@@ -49,12 +49,12 @@
     "static/media/VisualStudioCode.png": "/PortafolioReact/static/media/VisualStudioCode.167139e078451936eb3b.png",
     "static/media/proyecto-app-2.jpg": "/PortafolioReact/static/media/proyecto-app-2.5d8ddf1cc2638b419fd5.jpg",
     "index.html": "/PortafolioReact/index.html",
-    "main.d11b0a5c.css.map": "/PortafolioReact/static/css/main.d11b0a5c.css.map",
-    "main.436ea732.js.map": "/PortafolioReact/static/js/main.436ea732.js.map",
+    "main.0799fada.css.map": "/PortafolioReact/static/css/main.0799fada.css.map",
+    "main.aae648dc.js.map": "/PortafolioReact/static/js/main.aae648dc.js.map",
     "787.96b18b2c.chunk.js.map": "/PortafolioReact/static/js/787.96b18b2c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d11b0a5c.css",
-    "static/js/main.436ea732.js"
+    "static/css/main.0799fada.css",
+    "static/js/main.aae648dc.js"
   ]
 }
