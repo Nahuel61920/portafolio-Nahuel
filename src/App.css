@@ -63,6 +63,10 @@ main,
     color: var(--black);
 }
 
+.service-page .heading{
+    margin-top: 7rem;
+}
+
 /**botones**/
 
 .custom-btn {

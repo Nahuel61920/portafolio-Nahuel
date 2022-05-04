@@ -67,7 +67,7 @@ const About = () => (
                             defaultMessage='Download cv'
                         />
                     </a>
-                    <NavLink className="custom-btn btn-codigo" to="/PortafolioReact/about" exact>
+                    <NavLink className="custom-btn btn-codigo" to="/PortafolioReact/about">
                         <span>
                             <FormattedMessage
                                 id='btn-know-more'

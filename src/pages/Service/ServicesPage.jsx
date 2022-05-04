@@ -20,7 +20,7 @@ const Services = () => {
 
       <ParticleBackground />
 
-      <main>
+      <main className="service-page">
         <Service />
 
         <section className="site-services">
@@ -313,6 +313,8 @@ const Services = () => {
                 id='services-questions-p1'
                 defaultMessage='It is that page that is capable of adapting to any device where it is viewed, such as cell phones, tablets, laptops, without losing appearance or usability.'
               />}
+              dataAos="fade-right"
+              dataAosDelay="300"
             />
 
             <Accordion
@@ -324,6 +326,8 @@ const Services = () => {
                 id='services-questions-p2'
                 defaultMessage='Both are essential elements of a website. In short, the domain name is the address of the web page, while the hosting provides the space and resources necessary to launch the website.'
               />}
+              dataAos="fade-left"
+              dataAosDelay="300"
             />
 
             <Accordion
@@ -335,6 +339,8 @@ const Services = () => {
                 id='services-questions-p3'
                 defaultMessage='Regular maintenance of your website allows you to attract and retain customers with new information, new products and services, in addition to helping you maintain or improve your ranking in Google.'
               />}
+              dataAos="fade-right"
+              dataAosDelay="300"
             />
 
             <Accordion
@@ -346,6 +352,8 @@ const Services = () => {
                 id='services-questions-p4'
                 defaultMessage='You can pay online by credit or debit cards and payments by transfers.'
               />}
+              dataAos="fade-left"
+              dataAosDelay="300"
             />
 
           </div>

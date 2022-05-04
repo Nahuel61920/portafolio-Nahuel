@@ -32,30 +32,30 @@ const HeaderPage = () => {
         <header className="site-header">
             <div id="menu-btn" className="fas fa-bars" onClick={menuDesplegable}></div>
 
-            <NavLink className="logo" to="/PortafolioReact" exact>
+            <NavLink className="logo" to="/PortafolioReact" >
                 <p>=(<span>NAHUEL61920</span>)=></p>
             </NavLink>
 
             <nav className="navbar">
-                <NavLink to="/PortafolioReact/" exact spy={true} smooth={true} offset={-150} duration={500}>
+                <NavLink to="/PortafolioReact/" offset={-150} duration={500}>
                     <FormattedMessage
                         id='home'
                         defaultMessage='Home'
                     />
                 </NavLink>
-                <NavLink to="/PortafolioReact/about" spy={true} smooth={true} offset={-150} duration={500}>
+                <NavLink to="/PortafolioReact/about" offset={-150} duration={500}>
                     <FormattedMessage
                         id='aboult'
                         defaultMessage='Aboult me'
                     />
                 </NavLink>
-                <NavLink to="/PortafolioReact/service" spy={true} smooth={true} offset={-150} duration={500}>
+                <NavLink to="/PortafolioReact/service" offset={-150} duration={500}>
                     <FormattedMessage
                         id='services'
                         defaultMessage='Services'
                     />
                 </NavLink>
-                <NavLink to="/PortafolioReact/" spy={true} smooth={true} offset={-150} duration={500}>
+                <NavLink to="/PortafolioReact/" offset={-150} duration={500}>
                     <FormattedMessage
                         id='projects'
                         defaultMessage='Projects'

@@ -12,6 +12,8 @@ import About from "./pages/About/AboutPage";
 import Services from "./pages/Service/ServicesPage";
 import Project from "./pages/Project/ProjectPage";
 
+import RouterScrollTop from "./components/ScrollToTop/RouterScrollTop"
+
 /* Loading spinner */
 import HashLoader from "react-spinners/HashLoader";
 
@@ -26,7 +28,7 @@ function App() {
     }, [])
     return (
         <Router>
-
+            <RouterScrollTop />
             {
                 loading ?
 

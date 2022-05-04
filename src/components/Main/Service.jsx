@@ -104,7 +104,7 @@ const Service = () => (
                 </p>
             </div>
         </div>
-        <NavLink className="custom-btn btn-codigo portafolio-btn" to="/PortafolioReact/service" exact>
+        <NavLink className="custom-btn btn-codigo portafolio-btn" to="/PortafolioReact/service">
             <FormattedMessage
                 id='btn-know-more'
                 defaultMessage='Read more'
