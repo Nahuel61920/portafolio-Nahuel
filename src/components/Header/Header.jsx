@@ -3,6 +3,9 @@ import './Header.css';
 /* ReactScroll */
 import { Link } from 'react-scroll';
 
+/* React router */
+import { NavLink } from 'react-router-dom';
+
 /* DarkMode */
 import DarkMode from '../DarkMode/DarkMode';
 
@@ -31,9 +34,9 @@ const Header = () => {
         <header className="site-header">
             <div id="menu-btn" className="fas fa-bars" onClick={menuDesplegable}></div>
 
-            <a href="#inicio" className="logo">
+            <NavLink className="logo" to="/PortafolioReact" exact>
                 <p>=(<span>NAHUEL61920</span>)=></p>
-            </a>
+            </NavLink>
 
             <nav className="navbar">
                 <Link to="inicio" spy={true} smooth={true} offset={-150} duration={500} href="#inicio">

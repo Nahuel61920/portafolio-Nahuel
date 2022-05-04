@@ -38,7 +38,8 @@ html{
     scroll-behavior: smooth;
 }
 
-main {
+main,
+.main {
     padding:2rem 8%;
     overflow: hidden!important;
 }
@@ -767,7 +768,7 @@ section .row .columns .skill img:hover {
     box-shadow: var(--box-shadow);
     border: var(--borde);
     margin: 0;
-    transform: scale(0.9);
+    transform: scale(0.9)!important;
     justify-content: center;
 }
 
@@ -810,7 +811,7 @@ section .row .columns .skill img:hover {
 
 .site-services .row .recomendado{
     background: var(--black);
-    transform: scale(1.1);
+    transform: scale(1.1)!important;
 }
 
 .site-services .row .recomendado .sub-title,
@@ -1198,11 +1199,11 @@ section .row .columns .skill img:hover {
     }
     
     .site-services .row .columns{
-        transform: scale(1);
+        transform: scale(1)!important;
     }
 
     .site-services .row .recomendado{
-        transform: scale(1);
+        transform: scale(1)!important;
     }
 
     .icons a .text{

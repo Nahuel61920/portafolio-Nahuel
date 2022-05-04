@@ -1,13 +1,16 @@
 import React, { useState, useEffect } from 'react';
+import {
+    BrowserRouter as Router,
+    Route,
+    Routes,
+} from "react-router-dom";
 import './App.css';
 
-/* Componet */
-import Header from './components/Header/Header';
-import Footer from './components/Footer/Footer';
-import Main from './components/Main';
-import Contenido from './components/Contenido';
-import ParticleBackground from "./components/ParticlesBg/ParticleBackground";
-import ScrollToTop from './components/ScrollToTop/ScrollToTop'
+/* Pages */
+import Home from "./pages/Home/HomePage";
+import About from "./pages/About/AboutPage";
+import Services from "./pages/Service/ServicesPage";
+import Project from "./pages/Project/ProjectPage";
 
 /* Loading spinner */
 import HashLoader from "react-spinners/HashLoader";
@@ -22,7 +25,8 @@ function App() {
         }, 4000)
     }, [])
     return (
-        <div className='App'>
+        <Router>
+
             {
                 loading ?
 
@@ -36,21 +40,16 @@ function App() {
 
                     :
 
-                    <div>
-                        <Header />
+                    <Routes>
+                        <Route path="/PortafolioReact/" element={<Home />}></Route>
+                        <Route path="/PortafolioReact/about" element={<About />}></Route>
+                        <Route path="/PortafolioReact/service" element={<Services />}></Route>
+                        <Route path="/PortafolioReact/project" element={<Project />}></Route>
+                    </Routes>
 
-                        <ParticleBackground />
-
-                        <Contenido />
-
-                        <Main />
-
-                        <ScrollToTop />
-
-                        <Footer />
-                    </div>
             }
-        </div>
+
+        </Router>
     )
 }
 
