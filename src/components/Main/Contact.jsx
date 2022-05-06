@@ -1,4 +1,5 @@
 import React from 'react';
+import '../../pages/Contact/ContactPage.css'
 /* TypedJs */
 import Typical from 'react-typical';
 

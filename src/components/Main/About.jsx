@@ -1,4 +1,5 @@
 import React from 'react';
+import '../../pages/About/AboutPage.css'
 import { NavLink } from 'react-router-dom';
 
 /* Multi idioma */

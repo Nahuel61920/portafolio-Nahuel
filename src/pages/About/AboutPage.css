@@ -1,0 +1,319 @@
+/********************** Sobre Mi **********************/
+
+section .row{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(35rem, 1fr));
+    gap: 1.5rem;
+}
+
+section .row .columns{
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 1rem 0 1rem;
+    background: #fff;
+    box-shadow: var(--box-shadow);
+    border: var(--borde);
+    border-radius: .5rem;
+}
+
+#sobre-mi .row{
+    overflow-x: hidden!important;
+}
+
+section .row .columns h3{
+    font-size: 2rem;
+    color: var(--light-color);
+    margin-bottom: 2rem;
+}
+
+section .row .columns h4{
+    font-size: 2.7rem;
+    color: var(--black);
+    margin-bottom: 2rem;
+    text-transform: none;
+}
+
+section .row .columns p{
+    font-size: 1.7rem;
+    line-height: 2;
+    margin-bottom: 2rem;
+    text-transform: none;
+}
+
+section .row .columns ul li{
+    list-style:none;
+}
+
+section .row .columns ul li p span{
+    font-weight: bold;
+    color: var(--black);
+}
+
+section .row .columns .mas-info{
+    display: flex;
+    flex-direction: column;
+}
+
+.sobre-mi .row .columns a{
+    margin: 2rem 1rem 1rem 0;
+}
+
+section .row .col-skill h4{
+    font-size: 2.7rem;
+    color: var(--black);
+    margin-bottom: 2.5rem;
+}
+
+.skill{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skill h5{
+    background: var(--black);
+    text-align: center;
+    border-radius: .5rem;
+    padding: .5rem 0;
+    font-size: 1.1rem;
+    width: 10rem;
+    margin: 0 1.5rem;
+    transform: translate(0px, -75px);
+    opacity: 0;
+    transition: .5s ease all;
+    color: var(--white);
+}
+
+.skill>div:hover h5 {
+    transform: translate(0px, -110px);
+    opacity: 1;
+}
+
+.icons-skils {
+    width: 7rem;
+    height: 7rem;
+    margin: .7rem 3rem;
+}
+
+section .row .columns .skill img:hover {
+    transform: scale(1.2);
+}
+
+/********************** Sobre-mi-page **********************/
+
+.sobre-mi-seccion{
+    width: 100%;
+    padding-top: 7rem;
+    position: relative;
+    top: 0;
+    transition: 1s;
+    margin-bottom: 2rem;
+    overflow: hidden!important;
+}
+
+.sobre-mi-container {
+    display: grid;
+    grid-template-columns: 30% 68%;
+    grid-gap: 2rem;
+}
+
+.sobre-mi-img-container{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    -webkit-align-items: flex-end;
+}
+
+.sobre-mi-info p{
+    color: #000;
+    font-size: 1.7rem;
+    line-height: 2;
+    text-transform: none;
+    padding-bottom: 1rem;
+}
+
+.sobre-mi-info .btn-info {
+    display: none;
+}
+
+
+.sobre-mi-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: right;
+    border-radius: 2rem;
+}
+
+.cv {
+    position: absolute;
+    margin-bottom: 2rem;
+}
+
+.cv:hover{
+    background: var(--white);
+    color: var(--black);
+}
+
+
+/********************** Skill page **********************/
+
+.skill-container{
+    margin: auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 5rem;
+}
+
+.skills-img {
+    display: block;
+    margin: 0 auto;
+    height: 15rem;
+}
+
+.skill-name{
+    font-size: 3rem;
+    font-weight: 500;
+    text-align: center;
+    margin: 2rem 0 2rem;
+    color: var(--black);
+}
+
+.skill-info{
+    text-align: center;
+    color: #000;
+    font-size: 1.7rem;
+    line-height: 2;
+    text-transform: none;
+}
+
+/********************** Media Q **********************/
+
+@media (max-width: 990px) {
+    .skill h5{
+        margin: 0 0.5rem;
+    }
+
+    .icons-skils {
+        margin: 1.5rem 2rem;
+    }
+
+    .sobre-mi-container {
+        grid-template-columns: 50% 50%;
+    }
+
+    .skill-container{
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 7rem;
+    }
+}
+
+@media (max-width: 760px) {
+
+    .icons-skils {
+        width: 6rem;
+        height: 6rem;
+        margin: 1.7rem 3rem;
+    }
+
+    section .row .col-skill h4{
+        margin-bottom: 3.5rem;
+    }
+    
+    .skill h5{
+        margin: 0 0.7rem;
+        font-size: 1.3rem;
+        font-weight: bold;
+        transform: translate(0px, -110px);
+        opacity: 1;
+    }
+    
+    .skill>div:hover h5 {
+        transform: translate(0px, -110px);
+    }
+    
+    section .row .columns .skill img:hover {
+        transform: scale(1);
+    }
+
+    .skill{
+        justify-content: center;
+    }
+
+    section .row .columns{
+        text-align: center;
+    }
+
+    section .row .columns .mas-info{
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .servicios .row .columns{
+        margin-left: 0;
+    }
+
+    .sobre-mi-container {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 570px) {
+
+    .icons-skils {
+        margin: 1.3rem 2rem;
+    }
+
+    .skill-container{
+        grid-gap: 7rem;
+    }
+    .skill h5{
+        background-color: var(--white);
+        color: #000;
+        font-size: 1.5rem;
+        font-weight: bold;
+        transform: translate(0px, -90px);
+    }
+
+    .skill>div:hover h5 {
+        transform: translate(0px, -90px);
+    }
+
+    .sobre-mi-info .btn-info {
+        display: flex;
+        justify-content: center;
+    }
+
+    .sobre-mi-info .hide {
+        display: none;
+    }
+
+    .sobre-mi-info .show {
+        display: block;
+    }
+
+    .skills-img {
+        height: 13rem;
+    }
+
+    .skill-name{
+        margin-top: 1rem;
+    }
+}
+
+@media (max-width: 450px) {
+    .skill-container{
+        grid-template-columns: repeat(1, 1fr);
+        grid-gap: 4rem;
+    }
+
+    .skill h5{
+        width: 7rem;
+        margin-left: 1.7rem;
+    }
+
+    .icons a{
+        margin: 5rem 2rem;
+    }
+}

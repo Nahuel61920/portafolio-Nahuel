@@ -1,0 +1,223 @@
+/********************** Inicio **********************/
+
+.contenido {
+    background: url(../../img/inicio.png);
+    width: 100vw;
+    height: 100vh;
+    background-position: center center;
+	background-size: cover;
+}
+
+.inicio{
+    display: flex;
+    justify-content: center;
+}
+
+.inicio .titulo{
+    margin: 20rem auto 0 auto;
+    text-align: center;
+}
+
+.inicio .titulo p {
+    font-size: 3.5rem;
+    color: var(--white);
+    position: relative;
+    font-weight: 600;
+}
+
+.inicio .titulo h1{
+    font-size: 4.5rem;
+    color: var(--green);
+}
+
+.wrapper {
+    margin: 2rem;
+}
+
+.wrapper .button{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 60px;
+    width: 60px;
+    float: left;
+    margin: 0 2rem;
+    overflow: hidden;
+    color: #000;
+    background: var(--green);
+    border-radius: 50px;
+    cursor: pointer;
+    box-shadow: 0px 10px 10px rgba(0,0,0,0.1);
+    transition: all 0.3s ease-out;
+}
+.wrapper .button:hover{
+    width: 170px;
+}
+.wrapper .button .icon{
+    display: inline-block;
+    padding: 0 1.8rem;
+    height: 60px;
+    width: 60px;
+    border-radius: 50px;
+    box-sizing: border-box;
+    line-height: 60px;
+    transition: all 0.3s ease-out;
+}
+.wrapper .button:nth-child(4).icon{
+}
+.wrapper .button:nth-child(1):hover .icon{
+    background: #4267B2;
+}
+.wrapper .button:nth-child(2):hover .icon{
+    background: #333;
+}
+.wrapper .button:nth-child(3):hover .icon{
+    background: #E1306C;
+}
+.wrapper .button:nth-child(4):hover .icon{
+    background: #4fc35b;
+}
+.wrapper .button .icon i{
+    font-size: 25px;
+    line-height: 60px;
+    transition: all 0.3s ease-out;
+}
+.wrapper .button:hover .icon i{
+    color: #fff;
+}
+.wrapper .button span{
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 60px;
+    margin-left: 10px;
+    transition: all 0.3s ease-out;
+    color: #fff;
+}
+.wrapper .button:nth-child(1):hover{
+    background-color: #4267B2;
+}
+.wrapper .button:nth-child(2):hover{
+    background-color: #333;
+}
+.wrapper .button:nth-child(3):hover{
+    background-color: #E1306C;
+}
+.wrapper .button:nth-child(4):hover{
+    background-color: #4fc35b;
+}
+
+.titulo .redes-sociales{
+    display: none;
+}
+
+.scroll-down {
+    height: 50px;
+    width: 30px;
+    border: 2px solid #fff;
+    position: absolute;
+    left: 49%;
+    bottom: 20px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.scroll-down::before,
+.scroll-down::after {
+    content: "";
+    position: absolute;
+    top: 20%;
+    height: 10px;
+    width: 10px;
+    transform: translate(-50%, -100%) rotate(45deg);
+    border: 2px solid #fff;
+    border-top: transparent;
+    border-left: transparent;
+    animation: scroll-down 1s ease-in-out infinite;
+}
+.scroll-down::before {
+    top: 30%;
+    animation-delay: 0.3s;
+}
+
+@keyframes scroll-down {
+    0% {
+    /* top:20%; */
+        opacity: 0;
+    }
+    30% {
+        opacity: 1;
+    }
+    60% {
+        opacity: 1;
+    }
+    100% {
+    top: 90%;
+        opacity: 0;
+    }
+}
+
+
+/********************** Media Q **********************/
+
+@media (max-width: 990px) {
+    .wrapper .button .icon{
+        display: inline-block;
+        padding: 0 1.8rem 0 2.1rem;
+        height: 60px;
+        width: 60px;
+        border-radius: 50px;
+        box-sizing: border-box;
+        line-height: 60px;
+        transition: all 0.3s ease-out;
+    }
+
+    .scroll-down {
+        left: 48%;
+        bottom: 50px;
+    }
+}
+
+@media (max-width: 760px) {
+
+    .contenido {
+        min-height: 600px;
+    }
+
+    .inicio .titulo p {
+        font-size: 3.5rem;
+    }
+    
+    .inicio .titulo h1{
+        font-size: 4rem;
+    }
+}
+
+@media (max-width: 570px) {
+    .wrapper{
+        display: none;
+    }
+
+    .titulo .redes-sociales{
+        display: block;
+    }
+}
+
+@media (max-width: 450px) {
+    .contenido {
+        min-height: 500px;
+    }
+
+    .inicio .titulo p {
+        font-size: 3rem;
+    }
+    
+    .inicio .titulo h1{
+        font-size: 3.5rem;
+    }
+    .scroll-down {
+        display: none;
+    }
+
+    .icons a{
+        margin: 5rem 2rem;
+    }
+}

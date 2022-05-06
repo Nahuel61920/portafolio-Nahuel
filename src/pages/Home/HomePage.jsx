@@ -4,7 +4,7 @@ import React from 'react'
 import Header from '../../components/Header/Header';
 import Footer from '../../components/Footer/Footer';
 import Main from '../../components/Main';
-import Contenido from '../../components/Contenido';
+import Content from '../../components/Content/Content';
 import ParticleBackground from "../../components/ParticlesBg/ParticleBackground";
 import ScrollToTop from '../../components/ScrollToTop/ScrollToTop';
 
@@ -16,7 +16,7 @@ const Home = () => {
 
       <ParticleBackground />
 
-      <Contenido />
+      <Content />
 
       <Main />
 

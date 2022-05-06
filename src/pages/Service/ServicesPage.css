@@ -1,0 +1,195 @@
+
+
+
+
+/********************** Servicios **********************/
+
+.servicios .row{
+    text-align: center;
+}
+
+.servicios .row .columns{
+    box-shadow: var(--box-shadow);
+    border: var(--borde);
+    border-bottom: 1rem solid var(--white);
+    margin: 0.5rem;
+}
+
+.servicios .row .columns:hover{
+    background: var(--black);
+    color: var(--light-color);
+    border-bottom: 1rem solid var(--black);
+}
+
+.servicios .row i{
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    color: var(--black);
+}
+
+.servicios .row .columns:hover i{
+    color: var(--light-color);
+}
+
+.servicios .row .columns:hover h3{
+    color: var(--white);
+}
+
+
+/********************** Services seccion **********************/
+
+.site-services .row{
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    text-align: center;
+    justify-content: center!important;
+    margin: 3rem auto;
+}
+
+.site-services .row .columns{
+    box-shadow: var(--box-shadow);
+    border: var(--borde);
+    margin: 0;
+    transform: scale(0.9)!important;
+    justify-content: center;
+}
+
+
+.site-services .columns h3{
+    text-transform: uppercase;
+}
+
+.site-services .columns .sub-title{
+    font-size: 1.5rem;
+    color: var(--black);
+}
+
+.site-services .columns .numero span {
+    position: relative;
+    font-size: 2.5rem;
+    top: -.7em;
+}
+
+.site-services .columns .numero{
+    font-size: 5rem;
+    font-weight: bold;
+    line-height: 1;
+    color: var(--black);
+}
+
+
+.site-services .columns li {
+    font-size: 1.5rem;
+    line-height: 2;
+}
+
+
+.site-services .row .columns li i {
+    font-size: 1.5rem;
+    padding-right: 0.2rem;
+    color: var(--black);
+}
+
+
+.site-services .row .recomendado{
+    background: var(--black);
+    transform: scale(1.1)!important;
+}
+
+.site-services .row .recomendado .sub-title,
+.site-services .row .recomendado .numero{
+    color: var(--white);
+}
+
+.site-services .row .recomendado li,
+.site-services .row .recomendado li i{
+    color: var(--light-color);
+}
+
+/********************** Services seccion **********************/
+
+.preguntas .accordion-container {
+    max-width: 70rem;
+    margin: 0 auto;
+}
+
+.preguntas .accordion-container .accordion {
+    background: #fff;
+    margin-bottom: 1.5rem;
+    -webkit-box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+            box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.2);
+}
+
+.preguntas .accordion-container .accordion:last-child {
+    margin-bottom: .5rem;
+}
+
+.preguntas .accordion-container .accordion.active .accordion-heading {
+    background: var(--black);
+}
+
+.preguntas .accordion-container .accordion.active .accordion-heading h3 {
+    color: var(--white);
+}
+
+.preguntas .accordion-container .accordion.active .accordion-heading i {
+    -webkit-transform: rotate(180deg);
+            transform: rotate(180deg);
+    color: var(--white);
+}
+
+.preguntas .accordion-container .accordion.active .accordioin-content {
+    display: block;
+    color: var(--black);
+}
+
+.preguntas .accordion-container .accordion .accordion-heading {
+    padding: 2rem;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 1rem;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    background: var(--white);
+    cursor: pointer;
+}
+
+.preguntas .accordion-container .accordion .accordion-heading h3,
+.preguntas .accordion-container .accordion .accordion-heading i {
+    font-size: 2rem;
+    color: var(--black);
+    text-transform: none;
+}
+
+.preguntas .accordion-container .accordioin-content {
+    padding: 2rem;
+    font-size: 1.5rem;
+    line-height: 2;
+    color: #666;
+    text-transform: none;
+    display: none;
+    -webkit-animation: fadeIn .2s linear;
+            animation: fadeIn .2s linear;
+}
+
+
+/********************** Media Q **********************/
+
+@media (max-width: 760px) {
+    .site-services .row{
+        grid-template-columns: 90%;
+    }
+    
+    .site-services .row .columns{
+        transform: scale(1)!important;
+    }
+
+    .site-services .row .recomendado{
+        transform: scale(1)!important;
+    }
+}

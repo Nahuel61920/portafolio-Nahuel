@@ -55,7 +55,7 @@ const HeaderPage = () => {
                         defaultMessage='Services'
                     />
                 </NavLink>
-                <NavLink to="/PortafolioReact/" offset={-150} duration={500}>
+                <NavLink to="/PortafolioReact/project" offset={-150} duration={500}>
                     <FormattedMessage
                         id='projects'
                         defaultMessage='Projects'

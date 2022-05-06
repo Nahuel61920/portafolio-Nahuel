@@ -1,4 +1,5 @@
 import React from 'react';
+import './AboutPage.css'
 
 /* Componet */
 import HeaderPage from '../../components/Header/HeaderPage';

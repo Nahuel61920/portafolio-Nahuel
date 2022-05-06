@@ -1,0 +1,290 @@
+/********************** Proyectos **********************/
+
+#proyectos .proyect-site{
+    overflow-x: hidden!important;
+}
+
+.proyectos .proyectos-slider{
+    padding-bottom: 5rem;
+}
+
+.proyectos .proyectos-slider .caja{
+    text-align: center;
+    width: 30rem;
+}
+
+.proyectos .proyectos-slider .caja img{
+    width: 100%;
+    opacity: .5;
+    transform: scale(.8);
+}
+
+.proyectos .proyectos-slider .caja .content{
+    transform: scale(0);
+    padding-top: 1rem;
+    text-transform: none!important;
+}
+
+.proyectos .proyectos-slider .swiper-slide-active img{
+    opacity: 1;
+    transform: scale(1);
+}
+
+.proyectos .proyectos-slider .swiper-slide-active .content{
+    transform: scale(1);
+}
+
+.proyectos .proyectos-slider .caja .content h3{
+    font-size: 2.5rem;
+    color: var(--black);
+}
+
+
+.proyectos .proyectos-slider .caja .content p{
+    font-size: 1.6rem;;
+    padding-top: 1.5rem;
+    color: var(--light-color-white);
+    text-transform: none!important;
+}
+
+
+.proyectos .proyectos-slider .caja .content p span{
+    color: var(--black);
+    font-size: 2.4rem;
+    font-weight: bold;
+}
+
+.proyectos .proyectos-slider .caja .content a{
+    margin: .5rem;
+}
+
+.proyectos .proyectos-slider .caja .content .tecnologias{
+    margin-bottom: 2rem;
+}
+
+.swiper-pagination-bullet-active{
+    background:var(--black);
+}
+
+.portafolio-btn{
+    display: flex;
+    justify-content: center;
+    margin: 2rem auto;
+}
+
+/********************** Proyectos seccion **********************/
+
+.mas-proyect{
+    margin-top: 8rem;
+}
+
+.nav-proj {
+    display: flex;
+    justify-content: center;
+    right: 0;
+}
+
+
+.nav-proj a{
+    margin:0 2rem ;
+}
+.projects__grid {
+	display: grid;
+	grid-template-areas: 
+	"img-1 	img-1	img-1	img-2   img-2	img-2"
+	"img-3	img-3	img-4	img-4   img-5	img-5"
+    "img-6	img-6	img-7	img-7   img-8	img-8"
+    "img-9	img-9	img-10	img-10  img-11	img-11"
+    "img-12	img-12	img-13	img-13  img-14	img-14";
+	gap: 10px;
+    margin-top: 6rem;
+}
+
+.proyecto-none{
+    display: none;
+}
+
+.projects__img {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+	cursor: pointer;
+}
+
+.projects__item:nth-of-type(1) {
+	grid-area: img-1;
+}
+.projects__item:nth-of-type(2) {
+	grid-area: img-2;
+}
+
+.projects__item:nth-of-type(3) {
+	grid-area: img-3;
+}
+
+.projects__item:nth-of-type(4) {
+	grid-area: img-4;
+}
+
+.projects__item:nth-of-type(5) {
+	grid-area: img-5;
+}
+
+.projects__item:nth-of-type(6) {
+	grid-area: img-6;
+}
+
+.projects__item:nth-of-type(7) {
+	grid-area: img-7;
+}
+
+.projects__item:nth-of-type(8) {
+	grid-area: img-8;
+}
+
+.projects__item:nth-of-type(9) {
+	grid-area: img-9;
+}
+
+.projects__item:nth-of-type(10) {
+	grid-area: img-10;
+}
+
+.projects__item:nth-of-type(11) {
+	grid-area: img-11;
+}
+
+.projects__item:nth-of-type(12) {
+	grid-area: img-12;
+}
+
+.projects__item:nth-of-type(13) {
+	grid-area: img-13;
+}
+
+.projects__item:nth-of-type(14) {
+	grid-area: img-14;
+}
+
+.mas-proyect .btn-info{
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+}
+/********************** Modal **********************/
+
+.eins-modal{
+    padding: 4rem!important;
+}
+
+.eins-modal-content {
+    max-width: 700px;
+}
+.eins-modal-preview {
+    max-width: 350px;
+    width: 90%;
+    margin: 0 auto;
+}
+.eins-modal-preview img {
+    width: 100%;
+    border-radius: 1rem;
+}
+
+.pw-content {
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(270px,auto));
+    gap: 2rem;
+}
+.eins-modal-text p {
+    font-size: 1.7rem;
+}
+
+.eins-modal-text-2 {
+    padding: 5rem 0 2rem;
+    font-size: 1.7rem;
+}
+
+.eins-modal-text-2 a {
+    color:var(--secundario);
+}
+
+.eins-modal-tec img {
+    width: 3rem;
+    height: 3rem;
+    margin: 1rem 2rem 1rem 0;
+}
+
+.eins-modal-text p{
+    padding: .5rem 0;
+    text-transform: none;
+}
+
+.eins-modal-text-3 img:hover{
+    transform: scale(1.1);
+}
+
+.eins-modal-text-2,
+.eins-modal-text-3 {
+    font-size: 1.7rem;
+    font-weight: bold;
+    color: var(--black);
+}
+
+/********************** Media Q **********************/
+
+
+@media (max-width: 760px) {
+
+    .eins-modal-preview {
+        max-width: 200px;
+        width: 70%;
+    }
+
+    .eins-modal-text p {
+        font-size: 1.5rem;
+    }
+
+    .eins-modal-text-2 {
+        padding: 2rem 0 2rem;
+        font-size: 1.5rem;
+    }
+
+    .eins-modal-text-2,
+    .eins-modal-text-3 {
+        font-size: 1.5rem;
+    }
+
+    .eins-modal-close{
+        font-size: 1.5rem;
+        width: 1.5rem;
+    }
+}
+
+@media (max-width: 570px) {
+
+    .projects__grid {
+		grid-template-areas: 
+		"img-1 img-1"
+		"img-2 img-2"
+		"img-3 img-4"
+		"img-5 img-6"
+		"img-7 img-8"
+        "img-9 img-10"
+        "img-12 img-11"
+        "img-13 img-14";
+	}
+
+    .projects__item img{
+        height:150px;
+    }
+}
+
+@media (max-width: 450px) {
+
+    .eins-modal{
+        padding: 2rem!important;
+    }
+    .eins-modal-content{
+        padding: 1rem!important;
+    }
+}

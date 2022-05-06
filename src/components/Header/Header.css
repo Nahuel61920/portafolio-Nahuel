@@ -146,8 +146,6 @@ body.dark #darkMode::after {
     font-size: 1.5rem;
 }
 
-
-
 #acceder-btn .btn{
     margin-top: 0;
 }
@@ -228,18 +226,6 @@ body.dark #darkMode::after {
 
     .navbar a::before{
         content: none;
-    }
-
-    .navbar .active::before,
-    .navbar a.active::before,
-    .navbar .active:hover:before{
-        width: 78px;
-    }
-
-    .mas-proyect .navbar .active-link::before,
-    .mas-proyect .navbar a.active::before,
-    .mas-proyect .navbar .active-link:hover:before{
-        width: 100%;
     }
 
     #buttons{
