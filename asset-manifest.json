@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/PortafolioReact/static/css/main.30f80231.css",
-    "main.js": "/PortafolioReact/static/js/main.1137716d.js",
+    "main.css": "/PortafolioReact/static/css/main.2dde9ce6.css",
+    "main.js": "/PortafolioReact/static/js/main.64de6c22.js",
     "static/js/787.96b18b2c.chunk.js": "/PortafolioReact/static/js/787.96b18b2c.chunk.js",
     "static/media/inicio.png": "/PortafolioReact/static/media/inicio.9e191e0f2820064e6d28.png",
     "static/media/Waiting.gif": "/PortafolioReact/static/media/Waiting.103e375040962eb49beb.gif",
@@ -49,12 +49,12 @@
     "static/media/VisualStudioCode.png": "/PortafolioReact/static/media/VisualStudioCode.167139e078451936eb3b.png",
     "static/media/proyecto-app-2.jpg": "/PortafolioReact/static/media/proyecto-app-2.5d8ddf1cc2638b419fd5.jpg",
     "index.html": "/PortafolioReact/index.html",
-    "main.30f80231.css.map": "/PortafolioReact/static/css/main.30f80231.css.map",
-    "main.1137716d.js.map": "/PortafolioReact/static/js/main.1137716d.js.map",
+    "main.2dde9ce6.css.map": "/PortafolioReact/static/css/main.2dde9ce6.css.map",
+    "main.64de6c22.js.map": "/PortafolioReact/static/js/main.64de6c22.js.map",
     "787.96b18b2c.chunk.js.map": "/PortafolioReact/static/js/787.96b18b2c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.30f80231.css",
-    "static/js/main.1137716d.js"
+    "static/css/main.2dde9ce6.css",
+    "static/js/main.64de6c22.js"
   ]
 }
