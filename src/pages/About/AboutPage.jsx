@@ -15,6 +15,20 @@ import { FormattedMessage } from 'react-intl';
 import imgabout from '../../img/home.jpg';
 
 const About = () => {
+
+  function readMore() {
+    let btnHide = document.querySelector("#btn-hide");
+    let parrafoActive = document.querySelector(".parrafo-active");
+
+    parrafoActive.classList.toggle("show");
+
+    if (parrafoActive.classList.contains("show")) {
+      btnHide.innerHTML = "↑";
+    } else {
+      btnHide.innerHTML = "Read more";
+    }
+  }
+
   return (
     <div>
 
@@ -59,7 +73,7 @@ const About = () => {
               </div>
 
               <div className="btn-info">
-                <div className="custom-btn btn-codigo" id="btn-hide"><span data-section="Aboult" data-value="btn-know-more">Saber más</span></div>
+                <div className="custom-btn btn-codigo" id="btn-hide" onClick={readMore}><span>Read more</span></div>
               </div>
             </div>
 
