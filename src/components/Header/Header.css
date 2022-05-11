@@ -224,9 +224,13 @@ body.dark #darkMode::after {
     content: none;
   }
 
-  .navbar .active-link::before,
   .navbar a.active::before {
     width: 20%;
+  }
+
+  .nav-proj .active-link::before,
+  .nav-proj a.active::before {
+    width: 100%;
   }
 
   #buttons {
@@ -288,5 +292,14 @@ body.dark #darkMode::after {
   body.dark #darkMode span {
     line-height: 2.7rem;
     padding: 0.4px 0 0 4px;
+  }
+
+  .navbar .active-link::before,
+  .navbar a.active::before {
+    width: 25%;
+  }
+
+  .nav-proj a.active::before {
+    width: 100%;
   }
 }

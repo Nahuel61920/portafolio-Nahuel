@@ -44,7 +44,12 @@ const Project = () => {
 
       <main>
         <section className="proyectos mas-proyect" id="proyectos">
-          <h1 className="heading" data-section="Nav" data-value="projects">Proyectos</h1 >
+          <h1 className="heading" data-section="Nav" data-value="projects">
+            <FormattedMessage
+              id='projects'
+              defaultMessage='Projects'
+            />
+          </h1>
           <nav className="navbar nav-proj">
             <NavLink to="/PortafolioReact/project" offset={-150} duration={500}>
               <FormattedMessage
@@ -66,72 +71,72 @@ const Project = () => {
 
         <section className="projects__grid paginas-web">
           <div className="projects__item">
-            <a data-modal-id="proyec-17" onClick={() => cambiarEstadoModal17(!estadoModal17)}>
+            <a onClick={() => cambiarEstadoModal17(!estadoModal17)}>
               <img src={proyectsImg(`./proyecto-17.jpg`)} alt="" className="projects__img" />
             </a>
           </div>
           <div className="projects__item">
-            <a data-modal-id="proyec-14" onClick={() => cambiarEstadoModal14(!estadoModal14)}>
+            <a onClick={() => cambiarEstadoModal14(!estadoModal14)}>
               <img src={proyectsImg(`./proyecto-14.jpg`)} alt="" className="projects__img" />
             </a>
           </div>
           <div className="projects__item">
-            <a data-modal-id="proyec-15" onClick={() => cambiarEstadoModal15(!estadoModal15)}>
+            <a onClick={() => cambiarEstadoModal15(!estadoModal15)}>
               <img src={proyectsImg(`./proyecto-15.jpg`)} alt="" className="projects__img" />
             </a>
           </div>
           <div className="projects__item">
-            <a data-modal-id="proyec-16" onClick={() => cambiarEstadoModal16(!estadoModal16)}>
+            <a onClick={() => cambiarEstadoModal16(!estadoModal16)}>
               <img src={proyectsImg(`./proyecto-16.jpg`)} className="projects__img" />
             </a>
           </div>
           <div className="projects__item">
-            <a data-modal-id="proyec-13" onClick={() => cambiarEstadoModal13(!estadoModal13)}>
+            <a onClick={() => cambiarEstadoModal13(!estadoModal13)}>
               <img src={proyectsImg(`./proyecto-13.jpg`)} alt="" className="projects__img" />
             </a>
           </div>
           <div className="projects__item">
-            <a data-modal-id="proyec-12" onClick={() => cambiarEstadoModal12(!estadoModal12)}>
+            <a onClick={() => cambiarEstadoModal12(!estadoModal12)}>
               <img src={proyectsImg(`./proyecto-12.jpg`)} alt="" className="projects__img" />
             </a>
           </div>
           <div className="projects__item">
-            <a data-modal-id="proyec-11" onClick={() => cambiarEstadoModal11(!estadoModal11)}>
+            <a onClick={() => cambiarEstadoModal11(!estadoModal11)}>
               <img src={proyectsImg(`./proyecto-11.jpg`)} alt="" className="projects__img" />
             </a>
           </div>
           <div className="projects__item">
-            <a data-modal-id="proyec-10" onClick={() => cambiarEstadoModal10(!estadoModal10)}>
+            <a onClick={() => cambiarEstadoModal10(!estadoModal10)}>
               <img src={proyectsImg(`./proyecto-10.jpg`)} alt="" className="projects__img" />
             </a>
           </div>
           <div className="projects__item">
-            <a data-modal-id="proyec-9" onClick={() => cambiarEstadoModal9(!estadoModal9)}>
+            <a onClick={() => cambiarEstadoModal9(!estadoModal9)}>
               <img src={proyectsImg(`./proyecto-9.jpg`)} alt="" className="projects__img" />
             </a>
           </div>
           <div className="projects__item">
-            <a data-modal-id="proyec-8" onClick={() => cambiarEstadoModal8(!estadoModal8)}>
+            <a onClick={() => cambiarEstadoModal8(!estadoModal8)}>
               <img src={proyectsImg(`./proyecto-8.jpg`)} alt="" className="projects__img" />
             </a>
           </div>
           <div className="projects__item">
-            <a data-modal-id="proyec-7" onClick={() => cambiarEstadoModal7(!estadoModal7)}>
+            <a onClick={() => cambiarEstadoModal7(!estadoModal7)}>
               <img src={proyectsImg(`./proyecto-7.jpg`)} alt="" className="projects__img" />
             </a>
           </div>
           <div className="projects__item">
-            <a data-modal-id="proyec-6" onClick={() => cambiarEstadoModal6(!estadoModal6)}>
+            <a onClick={() => cambiarEstadoModal6(!estadoModal6)}>
               <img src={proyectsImg(`./proyecto-6.jpg`)} alt="" className="projects__img" />
             </a>
           </div>
           <div className="projects__item">
-            <a data-modal-id="proyec-5" onClick={() => cambiarEstadoModal5(!estadoModal5)}>
+            <a onClick={() => cambiarEstadoModal5(!estadoModal5)}>
               <img src={proyectsImg(`./proyecto-5.jpg`)} alt="" className="projects__img" />
             </a>
           </div>
           <div className="projects__item">
-            <a data-modal-id="proyec-3" onClick={() => cambiarEstadoModal3(!estadoModal3)}>
+            <a onClick={() => cambiarEstadoModal3(!estadoModal3)}>
               <img src={proyectsImg(`./proyecto-3.jpg`)} alt="" className="projects__img" />
             </a>
           </div>
@@ -162,7 +167,12 @@ const Project = () => {
                 <span>Link:</span> <a href="https://nahuel61920.github.io/TatoFood/" target="_blank">https://tato-food.com</a>
               </div>
               <div className="eins-modal-text-3">
-                <span>Tecnologías Utilizadas:</span>
+                <span>
+                  <FormattedMessage
+                    id='projects-tec'
+                    defaultMessage='Used technology:'
+                  />
+                </span>
                 <div className="eins-modal-tec">
                   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="" />
                   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="" />
@@ -199,7 +209,12 @@ const Project = () => {
                 <span>Link:</span> <a href="https://nahuel61920.github.io/Justice" target="_blank">https://justice.com</a>
               </div>
               <div className="eins-modal-text-3">
-                <span>Tecnologías Utilizadas:</span>
+                <span>
+                  <FormattedMessage
+                    id='projects-tec'
+                    defaultMessage='Used technology:'
+                  />
+                </span>
                 <div className="eins-modal-tec">
                   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="" />
                   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="" />
@@ -237,7 +252,12 @@ const Project = () => {
                 <span>Link:</span> <a href="https://nahuel61920.github.io/Magical-Effect/" target="_blank">https://magicaleffect.com</a>
               </div>
               <div className="eins-modal-text-3">
-                <span>Tecnologías Utilizadas:</span>
+                <span>
+                  <FormattedMessage
+                    id='projects-tec'
+                    defaultMessage='Used technology:'
+                  />
+                </span>
                 <div className="eins-modal-tec">
                   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="" />
                   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="" />
@@ -274,7 +294,12 @@ const Project = () => {
                 <span>Link:</span> <a href="https://crystalheart.empretienda.com.ar/" target="_blank">https://crystalheart.com</a>
               </div>
               <div className="eins-modal-text-3">
-                <span>Tecnologías Utilizadas:</span>
+                <span>
+                  <FormattedMessage
+                    id='projects-tec'
+                    defaultMessage='Used technology:'
+                  />
+                </span>
                 <div className="eins-modal-tec">
                   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="" />
                   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="" />
@@ -311,7 +336,12 @@ const Project = () => {
                 <span>Link:</span> <a href="https://nahuel61920.github.io/InspiredGamer" target="_blank">https://inspired-gamer.com</a>
               </div>
               <div className="eins-modal-text-3">
-                <span>Tecnologías Utilizadas:</span>
+                <span>
+                  <FormattedMessage
+                    id='projects-tec'
+                    defaultMessage='Used technology:'
+                  />
+                </span>
                 <div className="eins-modal-tec">
                   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="" />
                   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="" />
@@ -348,7 +378,12 @@ const Project = () => {
                 <span>Link:</span> <a href="https://nahuel61920.github.io/EveryRunning" target="_blank">https://every-running.com</a>
               </div>
               <div className="eins-modal-text-3">
-                <span>Tecnologías Utilizadas:</span>
+                <span>
+                  <FormattedMessage
+                    id='projects-tec'
+                    defaultMessage='Used technology:'
+                  />
+                </span>
                 <div className="eins-modal-tec">
                   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="" />
                   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="" />
@@ -385,7 +420,12 @@ const Project = () => {
                 <span>Link:</span> <a href="https://nahuel61920.github.io/PlusAnime" target="_blank">https://plusanime.com</a>
               </div>
               <div className="eins-modal-text-3">
-                <span>Tecnologías Utilizadas:</span>
+                <span>
+                  <FormattedMessage
+                    id='projects-tec'
+                    defaultMessage='Used technology:'
+                  />
+                </span>
                 <div className="eins-modal-tec">
                   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="" />
                   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="" />
@@ -421,7 +461,12 @@ const Project = () => {
                 <span>Link:</span> <a href="https://nahuel61920.github.io/ElegantHand/" target="_blank">https://elegant-hand.com</a>
               </div>
               <div className="eins-modal-text-3">
-                <span>Tecnologías Utilizadas:</span>
+                <span>
+                  <FormattedMessage
+                    id='projects-tec'
+                    defaultMessage='Used technology:'
+                  />
+                </span>
                 <div className="eins-modal-tec">
                   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="" />
                   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="" />
@@ -457,7 +502,12 @@ const Project = () => {
                 <span>Link:</span> <a href="https://nahuel61920.github.io/vida-en-papel" target="_blank">https://vida-en-papel.com</a>
               </div>
               <div className="eins-modal-text-3">
-                <span>Tecnologías Utilizadas:</span>
+                <span>
+                  <FormattedMessage
+                    id='projects-tec'
+                    defaultMessage='Used technology:'
+                  />
+                </span>
                 <div className="eins-modal-tec">
                   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="" />
                   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="" />
@@ -493,7 +543,12 @@ const Project = () => {
                 <span>Link:</span> <a href="https://nahuel61920.github.io/shop-tec" target="_blank">https://shop-tec.com</a>
               </div>
               <div className="eins-modal-text-3">
-                <span>Tecnologías Utilizadas:</span>
+                <span>
+                  <FormattedMessage
+                    id='projects-tec'
+                    defaultMessage='Used technology:'
+                  />
+                </span>
                 <div className="eins-modal-tec">
                   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="" />
                   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="" />
@@ -530,7 +585,12 @@ const Project = () => {
                 <span>Link:</span> <a href="https://nahuel61920.github.io/Power-Engine" target="_blank">https://power-engine.com</a>
               </div>
               <div className="eins-modal-text-3">
-                <span>Tecnologías Utilizadas:</span>
+                <span>
+                  <FormattedMessage
+                    id='projects-tec'
+                    defaultMessage='Used technology:'
+                  />
+                </span>
                 <div className="eins-modal-tec">
                   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="" />
                   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="" />
@@ -566,7 +626,12 @@ const Project = () => {
                 <span>Link:</span> <a href="https://nahuel61920.github.io/Spider-Man" target="_blank">https://spider-man-fans-page.com</a>
               </div>
               <div className="eins-modal-text-3">
-                <span>Tecnologías Utilizadas:</span>
+                <span>
+                  <FormattedMessage
+                    id='projects-tec'
+                    defaultMessage='Used technology:'
+                  />
+                </span>
                 <div className="eins-modal-tec">
                   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="" />
                   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="" />
@@ -603,7 +668,12 @@ const Project = () => {
                 <span>Link:</span> <a href="https://nahuel61920.github.io/PremierFood" target="_blank">https://premierfood.com</a>
               </div>
               <div className="eins-modal-text-3">
-                <span>Tecnologías Utilizadas:</span>
+                <span>
+                  <FormattedMessage
+                    id='projects-tec'
+                    defaultMessage='Used technology:'
+                  />
+                </span>
                 <div className="eins-modal-tec">
                   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="" />
                   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="" />
@@ -641,7 +711,12 @@ const Project = () => {
                 <span>Link:</span> <a href="https://nahuel61920.github.io/Blog-Coffe" target="_blank">https://ProgramCoffe.com</a>
               </div>
               <div className="eins-modal-text-3">
-                <span>Tecnologías Utilizadas:</span>
+                <span>
+                  <FormattedMessage
+                    id='projects-tec'
+                    defaultMessage='Used technology:'
+                  />
+                </span>
                 <div className="eins-modal-tec">
                   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="" />
                   <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="" />

@@ -1,46 +1,45 @@
 /********************** Boton up **********************/
 
 .cm-up {
-    position: fixed;
-    height: 50px;
-    width: 50px;
-	border-radius: 50%;
-	bottom: 70px;
-	right: 30px;
-	cursor: pointer;
-    z-index: 9999;
+  position: fixed;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  bottom: 70px;
+  right: 30px;
+  cursor: pointer;
+  z-index: 100;
 }
 
 .cm-icon {
-	background: var(--black);
-	color: var(--white);
-	font-size: 20px;
-	float: right;
-	width: 50px;
-	height: 50px;
-	border-radius: 50%;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	transition: 0.4s
+  background: var(--black);
+  color: var(--white);
+  font-size: 20px;
+  float: right;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 0.4s;
 }
 
 .cm-up:hover {
-	transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 /********** MQ **************/
 
-
 @media (max-width: 570px) {
-    .cm-up {
-        height: 40px;
-        width: 40px;
-    }
+  .cm-up {
+    height: 40px;
+    width: 40px;
+  }
 
-    .cm-icon {
-        font-size: 15px;
-        width: 40px;
-        height: 40px;
-    }
+  .cm-icon {
+    font-size: 15px;
+    width: 40px;
+    height: 40px;
+  }
 }
