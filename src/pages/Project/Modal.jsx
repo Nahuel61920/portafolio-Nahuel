@@ -8,7 +8,7 @@ const Modal = ({
     return (
         <>
             {estado &&
-                <div className="overlay">
+                <div className="overlay" onClick={() => cambiarEstado(false)}>
                     <div className='contenedor-modal'>
                         <buttom className="boton-cerrar" onClick={() => cambiarEstado(false)}>
                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" className="bi bi-x" viewBox="0 0 16 16">
