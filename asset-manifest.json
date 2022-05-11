@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/PortafolioReact/static/css/main.ce5365c4.css",
-    "main.js": "/PortafolioReact/static/js/main.7e27354c.js",
+    "main.css": "/PortafolioReact/static/css/main.de84f99d.css",
+    "main.js": "/PortafolioReact/static/js/main.c8c23b0f.js",
     "static/js/787.96b18b2c.chunk.js": "/PortafolioReact/static/js/787.96b18b2c.chunk.js",
     "static/media/inicio.png": "/PortafolioReact/static/media/inicio.9e191e0f2820064e6d28.png",
     "static/media/proyecto-17-com.png": "/PortafolioReact/static/media/proyecto-17-com.2bc063c32eca5ac09842.png",
@@ -43,12 +43,12 @@
     "static/media/proyecto-app-1.jpg": "/PortafolioReact/static/media/proyecto-app-1.9f67b1b05371891c30ad.jpg",
     "static/media/proyecto-app-2.jpg": "/PortafolioReact/static/media/proyecto-app-2.5d8ddf1cc2638b419fd5.jpg",
     "index.html": "/PortafolioReact/index.html",
-    "main.ce5365c4.css.map": "/PortafolioReact/static/css/main.ce5365c4.css.map",
-    "main.7e27354c.js.map": "/PortafolioReact/static/js/main.7e27354c.js.map",
+    "main.de84f99d.css.map": "/PortafolioReact/static/css/main.de84f99d.css.map",
+    "main.c8c23b0f.js.map": "/PortafolioReact/static/js/main.c8c23b0f.js.map",
     "787.96b18b2c.chunk.js.map": "/PortafolioReact/static/js/787.96b18b2c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ce5365c4.css",
-    "static/js/main.7e27354c.js"
+    "static/css/main.de84f99d.css",
+    "static/js/main.c8c23b0f.js"
   ]
 }
