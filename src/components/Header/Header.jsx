@@ -39,31 +39,31 @@ const Header = () => {
             </NavLink>
 
             <nav className="navbar">
-                <Link to="inicio" spy={true} smooth={true} offset={-150} duration={500} href="#inicio">
+                <Link to="inicio" spy={true} href="#inicio">
                     <FormattedMessage
                         id='home'
                         defaultMessage='Home'
                     />
                 </Link>
-                <Link to="sobre-mi" spy={true} smooth={true} offset={-150} duration={500} href="#sobre-mi">
+                <Link to="sobre-mi" spy={true} href="#sobre-mi">
                     <FormattedMessage
                         id='aboult'
                         defaultMessage='Aboult me'
                     />
                 </Link>
-                <Link to="servicios" spy={true} smooth={true} offset={-150} duration={500} href="#servicios">
+                <Link to="servicios" spy={true} href="#servicios">
                     <FormattedMessage
                         id='services'
                         defaultMessage='Services'
                     />
                 </Link>
-                <Link to="proyectos" spy={true} smooth={true} offset={-150} duration={500} href="#proyectos">
+                <Link to="proyectos" spy={true} href="#proyectos">
                     <FormattedMessage
                         id='projects'
                         defaultMessage='Projects'
                     />
                 </Link>
-                <Link to="contactos" spy={true} smooth={true} offset={-150} duration={500} href="#contactos">
+                <Link to="contactos" spy={true} href="#contactos">
                     <FormattedMessage
                         id='contact'
                         defaultMessage='Contact'
