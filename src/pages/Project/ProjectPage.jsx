@@ -13,11 +13,11 @@ import Footer from '../../components/Footer/Footer';
 import ParticleBackground from "../../components/ParticlesBg/ParticleBackground";
 import ScrollToTop from '../../components/ScrollToTop/ScrollToTop';
 
-/* Img */
-const proyectsImg = require.context('../../img', true);
-
 /* Multi idioma */
 import { FormattedMessage } from 'react-intl';
+
+/* Img */
+const proyectsImg = require.context('../../img', true);
 
 const Project = () => {
   const [estadoModal17, cambiarEstadoModal17] = useState(false);
@@ -51,16 +51,16 @@ const Project = () => {
             />
           </h1>
           <nav className="navbar nav-proj">
-            <NavLink to="/PortafolioReact/project" offset={-150} duration={500}>
+            <NavLink to="/project" offset={-150} duration={500}>
               <FormattedMessage
                 id='site-web'
                 defaultMessage='websites'
               />
             </NavLink>
-            <NavLink to="/PortafolioReact/project/app" offset={-150} duration={500}>
+            <NavLink to="/project/app" offset={-150} duration={500}>
               App
             </NavLink>
-            <NavLink to="/PortafolioReact/project/game" offset={-150} duration={500}>
+            <NavLink to="/project/game" offset={-150} duration={500}>
               <FormattedMessage
                 id='games'
                 defaultMessage='games'

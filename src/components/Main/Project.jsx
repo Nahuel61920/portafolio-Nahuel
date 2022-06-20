@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../pages/Project/ProjectPage.css'
-import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 /* Multi idioma */
 import { FormattedMessage } from 'react-intl';
@@ -231,12 +231,12 @@ const Project = () => {
                 </Swiper>
                 <div className="swiper-pagination"></div>
             </div>
-            <NavLink className="custom-btn btn-codigo portafolio-btn" to="/PortafolioReact/project">
+            <Link className="custom-btn btn-codigo portafolio-btn" to="/project">
                 <FormattedMessage
                     id='btn-more-projects'
                     defaultMessage='More projects'
                 />
-            </NavLink>
+            </Link>
         </section>
 
     )

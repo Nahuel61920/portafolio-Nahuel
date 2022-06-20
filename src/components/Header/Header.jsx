@@ -34,7 +34,7 @@ const Header = () => {
         <header className="site-header">
             <div id="menu-btn" className="fas fa-bars" onClick={menuDesplegable}></div>
 
-            <NavLink className="logo" to="/PortafolioReact">
+            <NavLink className="logo" to="/">
                 <p>=(<span>NAHUEL61920</span>)=></p>
             </NavLink>
 

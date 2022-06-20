@@ -4,9 +4,6 @@ import './ProjectPage.css';
 /* Modal */
 import Modal from "./Modal";
 
-/* Img */
-const proyectsImg = require.context('../../img', true);
-
 /* React router */
 import { NavLink } from 'react-router-dom';
 
@@ -16,9 +13,11 @@ import Footer from '../../components/Footer/Footer';
 import ParticleBackground from "../../components/ParticlesBg/ParticleBackground";
 import ScrollToTop from '../../components/ScrollToTop/ScrollToTop';
 
-
 /* Multi idioma */
 import { FormattedMessage } from 'react-intl';
+
+/* Img */
+const proyectsImg = require.context('../../img', true);
 
 const ProjectGame = () => {
 
@@ -42,16 +41,16 @@ const ProjectGame = () => {
                         />
                     </h1>
                     <nav className="navbar nav-proj">
-                        <NavLink to="/PortafolioReact/project/" offset={-150} duration={500}>
+                        <NavLink to="/project/" offset={-150} duration={500}>
                             <FormattedMessage
                                 id='site-web'
                                 defaultMessage='websites'
                             />
                         </NavLink>
-                        <NavLink to="/PortafolioReact/project/app" offset={-150} duration={500}>
+                        <NavLink to="/project/app" offset={-150} duration={500}>
                             App
                         </NavLink>
-                        <NavLink to="/PortafolioReact/project/game" offset={-150} duration={500}>
+                        <NavLink to="/project/game" offset={-150} duration={500}>
                             <FormattedMessage
                                 id='games'
                                 defaultMessage='games'

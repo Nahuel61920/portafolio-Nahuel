@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../pages/Service/ServicesPage.css'
-import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 /* Multi idioma */
 import { FormattedMessage } from 'react-intl';
@@ -105,12 +105,12 @@ const Service = () => (
                 </p>
             </div>
         </div>
-        <NavLink className="custom-btn btn-codigo portafolio-btn" to="/PortafolioReact/service">
+        <Link className="custom-btn btn-codigo portafolio-btn" to="/service">
             <FormattedMessage
                 id='btn-know-more'
                 defaultMessage='Read more'
             />
-        </NavLink>
+        </Link>
     </section>
 );
 

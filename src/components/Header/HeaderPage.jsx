@@ -32,30 +32,30 @@ const HeaderPage = () => {
         <header className="site-header">
             <div id="menu-btn" className="fas fa-bars" onClick={menuDesplegable}></div>
 
-            <NavLink className="logo" to="/PortafolioReact" >
+            <NavLink className="logo" to="" >
                 <p>=(<span>NAHUEL61920</span>)=></p>
             </NavLink>
 
             <nav className="navbar">
-                <NavLink to="/PortafolioReact/" offset={-150} duration={500}>
+                <NavLink to="/" offset={-150} duration={500}>
                     <FormattedMessage
                         id='home'
                         defaultMessage='Home'
                     />
                 </NavLink>
-                <NavLink to="/PortafolioReact/about" offset={-150} duration={500}>
+                <NavLink to="/about" offset={-150} duration={500}>
                     <FormattedMessage
                         id='aboult'
                         defaultMessage='Aboult me'
                     />
                 </NavLink>
-                <NavLink to="/PortafolioReact/service" offset={-150} duration={500}>
+                <NavLink to="/service" offset={-150} duration={500}>
                     <FormattedMessage
                         id='services'
                         defaultMessage='Services'
                     />
                 </NavLink>
-                <NavLink to="/PortafolioReact/project" offset={-150} duration={500}>
+                <NavLink to="/project" offset={-150} duration={500}>
                     <FormattedMessage
                         id='projects'
                         defaultMessage='Projects'

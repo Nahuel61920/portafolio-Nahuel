@@ -1,6 +1,9 @@
 import React from 'react';
 import './Content.css';
 
+/* ReactScroll */
+import { Link } from 'react-scroll';
+
 /* Multi idioma */
 import { FormattedMessage } from 'react-intl';
 
@@ -60,9 +63,9 @@ const Content = () => (
                     </a>
                 </div>
 
-                <a href="#sobre-mi" >
+                <Link to="sobre-mi" href="#sobre-mi">
                     <div className="scroll-down"></div>
-                </a>
+                </Link>
             </div>
         </section>
     </div>

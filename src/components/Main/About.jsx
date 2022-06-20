@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../pages/About/AboutPage.css'
-import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 /* Multi idioma */
 import { FormattedMessage } from 'react-intl';
@@ -68,14 +68,14 @@ const About = () => (
                             defaultMessage='Download cv'
                         />
                     </a>
-                    <NavLink className="custom-btn btn-codigo" to="/PortafolioReact/about">
+                    <Link className="custom-btn btn-codigo" to="/about">
                         <span>
                             <FormattedMessage
                                 id='btn-know-more'
                                 defaultMessage='Read more'
                             />
                         </span>
-                    </NavLink>
+                    </Link>
                 </div>
             </div>
             <div className="columns col-skill" data-aos="fade-left" data-aos-delay="650">

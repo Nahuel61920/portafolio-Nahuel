@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from 'react';
 import {
-    BrowserRouter as Router,
     Route,
     Routes,
 } from "react-router-dom";
@@ -29,7 +28,7 @@ function App() {
         }, 4000)
     }, [])
     return (
-        <Router>
+        <>
             <RouterScrollTop />
             {
                 loading ?
@@ -45,17 +44,17 @@ function App() {
                     :
 
                     <Routes>
-                        <Route path="/PortafolioReact/" element={<Home />}></Route>
-                        <Route path="/PortafolioReact/about" element={<About />}></Route>
-                        <Route path="/PortafolioReact/service" element={<Services />}></Route>
-                        <Route path="/PortafolioReact/project" element={<Project />}></Route>
-                        <Route path="/PortafolioReact/project/app" element={<ProjectApp />} />
-                        <Route path="/PortafolioReact/project/game" element={<ProjectGame />} />
+                        <Route path="/" element={<Home />}></Route>
+                        <Route exact path="/about" element={<About />}></Route>
+                        <Route exact path="/service" element={<Services />}></Route>
+                        <Route exact path="/project" element={<Project />}></Route>
+                        <Route exact path="/project/app" element={<ProjectApp />} />
+                        <Route exact path="/project/game" element={<ProjectGame />} />
                     </Routes>
 
             }
 
-        </Router>
+        </>
     )
 }
 

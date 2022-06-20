@@ -48,16 +48,16 @@ function ProjectApp() {
                         />
                     </h1>
                     <nav className="navbar nav-proj">
-                        <NavLink to="/PortafolioReact/project/" offset={-150} duration={500}>
+                        <NavLink to="/project/" offset={-150} duration={500}>
                             <FormattedMessage
                                 id='site-web'
                                 defaultMessage='websites'
                             />
                         </NavLink>
-                        <NavLink to="/PortafolioReact/project/app" offset={-150} duration={500}>
+                        <NavLink to="/project/app" offset={-150} duration={500}>
                             App
                         </NavLink>
-                        <NavLink to="/PortafolioReact/project/game" offset={-150} duration={500}>
+                        <NavLink to="/project/game" offset={-150} duration={500}>
                             <FormattedMessage
                                 id='games'
                                 defaultMessage='games'
