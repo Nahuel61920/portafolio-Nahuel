@@ -9,6 +9,7 @@ body.dark section .heading {
 body.dark .btn-codigo {
   border: 2px solid var(--white);
   color: var(--white);
+  box-shadow: none;
 }
 
 body.dark .btn-codigo:hover {

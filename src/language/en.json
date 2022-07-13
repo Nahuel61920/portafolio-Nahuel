@@ -1,6 +1,6 @@
 {
     "home": "Home",
-    "aboult": "Aboult me",
+    "about": "About me",
     "services": "Services",
     "projects": "Projects",
     "contact": "Contact",
@@ -12,12 +12,12 @@
 
     "greeting": "Hellow",
     "name": "I am Nahuel Carrizo",
-    "rol": "Front-end developer",
+    "rol": "Full-stack developer",
 
 
     "im": "who I am",
-    "description": "My name is Esteban Carrizo and I specialize in Web Developer",
-    "my-description": "I have been dedicated to web design and development for 1 year, I am constantly learning the technologies that I already master, and I seek to learn new technologies to enrich my skills",
+    "description": "My name is Esteban Carrizo and I am a full stack developer.",
+    "my-description": "I have been dedicated to web design and development for 2 years, I am constantly learning the technologies that I already master, I am also looking to learn new technologies to enrich my skills and improve my good practices",
     "years": "Age: ",
     "from": "From: ",
     "btn-know-more": "Read more",
@@ -47,16 +47,19 @@
     "footer-info": "Page created by Nahuel61920",
 
 
-    "aboult-info-1": "Hi, I'm Esteban Nahuel Carrizo, a student at the Technological University of Tucumán; I consider myself a person passionate about programming and web development since in 2020 I had the opportunity to get to know this world of the front-end and I was able to create my first web page only using HTML and CSS from there, I felt a great passion for web development, since you can do amazing things knowing how to use HTML, CSS, JavaScript and to this day I still feel that same passion when I create a web page.",
-    "aboult-info-2": "I consider myself a self-taught person since I like to be constantly learning day by day, both new technologies and new development methods that help me polish and raise my level of learning.",
-    "aboult-info-3": "I have experience working as a freelance web designer and developer, which gave me the opportunity to work on many interesting projects, adapting to the client's needs and budget, which allowed me to improve my skills and knowledge; Additionally, I have also had the opportunity to be part of some online and face-to-face courses that helped me enrich my skills and learn a little more about this beautiful world of web development.",
-    "btn-cv": "Download cv",
-    "aboult-skills-1": "More than a year of professional experience in this language, allows me to perform without problems in the industry",
-    "aboult-skills-2": "More than a year of work experience in this language, I use it daily to develop web designs and interfaces",
-    "aboult-skills-3": "A year of experience using it in the front-end branch, allowed me to familiarize myself with the language, and include it in my work projects",
-    "aboult-skills-4": "One year using this preprocessor in the professional field, I include it in many of my projects since it allows me a better structured code",
-    "aboult-skills-5": "Less than a year using this framework, even so, I used it in countless work projects, which allowed me to get to know it for the most part",
-    "aboult-skills-6": "A year using this bookstore in the personal and work environment, it is one of the bookstores that I use and manipulate the most",
+    "about-info-1": "Hi, I'm Esteban Nahuel Carrizo, a student at the Technological University of Tucumán; I consider myself a person passionate about programming and web development since in 2020 I had the opportunity to get to know this world of the front-end and I was able to create my first web page only using HTML and CSS from there, I felt a great passion for web development, since you can do amazing things knowing how to use HTML, CSS, JavaScript and to this day I still feel that same passion when I create a web page.",
+    "about-info-2": "I consider myself a self-taught person since I like to be constantly learning day by day, both new technologies and new development methods that help me polish and raise my level of learning.",
+    "about-info-3": "I have experience working as a freelance web designer and developer, which gave me the opportunity to work on many interesting projects, adapting to the client's needs and budget, which allowed me to improve my skills and knowledge; Additionally, I have also had the opportunity to be part of some online and face-to-face courses that helped me enrich my skills and learn a little more about this beautiful world of web development.",
+    "btn-cv": "Download CV",
+    "about-skills-1": "More than a year of professional experience in this language, allows me to perform without problems in the industry.",
+    "about-skills-2": "More than a year of work experience in this language, I use it daily to develop web designs and interfaces.",
+    "about-skills-3": "A year of experience using it in the front-end and back-end branch, allowed me to familiarize myself with the language, and include it in my work projects.",
+    "about-skills-4": "One year using this preprocessor in the professional field, I include it in many of my projects since it allows me a better structured code.",
+    "about-skills-5": "Less than a year using this framework, even so, I used it in countless work projects, which allowed me to get to know it for the most part.",
+    "about-skills-6": "A year using this bookstore in the personal and work environment, it is one of the bookstores that I use and manipulate the most.",
+    "about-skills-7": "More than a year using this JavaScript framework, carrying out multiple personal and work projects.",
+    "about-skills-8": "It is the cross-platform runtime environment that I use to make my web applications scalable.",
+    "about-skills-9": "It is a framework that I use mostly to be able to manage my APIs in the best way and my http execution model.",
 
 
     "services-price": "Price",

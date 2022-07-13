@@ -85,6 +85,10 @@ main,
     outline: none;
 }
 
+body.dark .custom-btn {
+    box-shadow: none;
+}
+
 .btn {
     background: var(--green);
     color: var(--black);
@@ -107,8 +111,11 @@ main,
     4px 4px 5px 0px rgba(0,0,0,.1);
     transition: all 0.6s ease;
 }
-.btn:hover {
+
+body.dark .btn::after {
+    box-shadow: none;
 }
+
 .btn:hover:after {
     left: 0;
     width: 100%;

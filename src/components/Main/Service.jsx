@@ -1,6 +1,7 @@
 import React from 'react';
 import '../../pages/Service/ServicesPage.css'
 import { Link } from 'react-router-dom';
+import { ButtomGet } from '../ButtomGet/ButtomGet';
 
 /* Multi idioma */
 import { FormattedMessage } from 'react-intl';
@@ -105,12 +106,11 @@ const Service = () => (
                 </p>
             </div>
         </div>
-        <Link className="custom-btn btn-codigo portafolio-btn" to="/service">
-            <FormattedMessage
-                id='btn-know-more'
-                defaultMessage='Read more'
-            />
-        </Link>
+        <div className='portafolio-btn'>
+            <Link to="/service">
+                <ButtomGet/>
+            </Link>
+        </div>
     </section>
 );
 

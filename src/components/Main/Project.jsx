@@ -1,6 +1,7 @@
 import React from 'react';
 import '../../pages/Project/ProjectPage.css'
 import { Link } from 'react-router-dom';
+import { ButtomGet } from '../ButtomGet/ButtomGet';
 
 /* Multi idioma */
 import { FormattedMessage } from 'react-intl';
@@ -231,12 +232,17 @@ const Project = () => {
                 </Swiper>
                 <div className="swiper-pagination"></div>
             </div>
-            <Link className="custom-btn btn-codigo portafolio-btn" to="/project">
+            {/* <Link className="custom-btn btn-codigo portafolio-btn" to="/project">
                 <FormattedMessage
                     id='btn-more-projects'
                     defaultMessage='More projects'
                 />
-            </Link>
+            </Link> */}
+            <div className='portafolio-btn'>
+                <Link to="/project">
+                    <ButtomGet/>
+                </Link>
+            </div>
         </section>
 
     )

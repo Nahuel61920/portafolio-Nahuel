@@ -1,6 +1,6 @@
 {
     "home": "Inicio",
-    "aboult": "Sobre mi",
+    "about": "Sobre mi",
     "services": "Servicios",
     "projects": "Proyectos",
     "contact": "Contactos",
@@ -11,12 +11,12 @@
 
     "greeting": "Hola",
     "name": "Soy Nahuel Carrizo",
-    "rol": "Front-end developer",
+    "rol": "Full-stack developer",
 
     
     "im": "Quien soy",
-    "description": "Mi nombre es Esteban Carrizo y me especializo en Web Developer",
-    "my-description": "Me dedico desde hace 1 año al diseño y desarrollo web, estoy en constante aprendizaje en las tecnologías que ya domino, y busco aprender nuevas tecnologías para enriquecer mis habilidades",
+    "description": "Mi nombre es Esteban Carrizo y soy full stack developer",
+    "my-description": "Me dedico desde hace 2 años al diseño y desarrollo web, estoy en constante aprendizaje en las tecnologías que ya domino, asimismo busco aprender nuevas tecnologías para enriquecer mis habilidades y mejorar mis buenas prácticas",
     "years": "Edad: ",
     "from": "Desde: ",
     "btn-know-more": "Saber más",
@@ -47,16 +47,19 @@
     "footer-info": "Pagina creada por Nahuel61920",
 
     
-    "aboult-info-1": "Hola soy Esteban Nahuel Carrizo, estudiante de la Universidad Tecnológica de Tucumán; Me considero una persona apasionada por la programación y el desarrollo web dado que en 2020 tuve la oportunidad conocer este mundo del front-end y pude crear mi primera página web solo usando HTML y CSS desde allí, sentí una gran pasión por el desarrollo web, ya que puedes hacer cosas impresionantes sabiendo cómo usar HTML, CSS, JavaScript y hasta el día de hoy sigo sintiendo esa misma pasión cuando creo una página web.",
-    "aboult-info-2": "Me considero una persona autodidacta dado que me gusta estar en constante aprendizaje día a día, tanto como de nuevas tecnologías, como de nuevos métodos de desarrollo que me ayuden a pulir y elevar mi nivel de aprendizaje.",
-    "aboult-info-3": "Tengo experiencia trabajando como diseñador y desarrollador web freelance, lo cual me dio la oportunidad de trabajar en bastantes proyectos interesantes, adaptándome a las necesidades y presupuesto del cliente lo que me permitió mejorar mis habilidades y conocimientos; adicionalmente también he tenido la oportunidad de formar parte de algunos cursos en línea y de manera presencial que me ayudaron a enriquecer mis capacidades y poder conocer un poco más de este hermoso mundo del desarrollo web.",
-    "btn-cv": "Descargar cv",
-    "aboult-skills-1": "Más de un año de experiencia profesional en este lenguaje, me permiten desempeñarme sin problemas en la industria",
-    "aboult-skills-2": "Más de un año de experiencia laboral en este lenguaje, lo utilizo diariamente para desarrollar diseños web e interfases",
-    "aboult-skills-3": "Un año de experiencia usándolo en la rama del front-end, me permitieron familiarizarme con el lenguaje, e incluirlo en mis proyectos laborales",
-    "aboult-skills-4": "Un año usando este preprocesador en el ámbito profesional, lo incluyo en mucho de mis proyectos ya que me permite un código mejor estructurado",
-    "aboult-skills-5": "Menos de un año utilizando este framework, aun así, lo utilice en incontables proyectos laborales, que me permitieron conocerlo en su mayoría",
-    "aboult-skills-6": "Un año usando esta librería en el ámbito personal y laboral, es de las librería que más empleo y manipulo",
+    "about-info-1": "Hola soy Esteban Nahuel Carrizo, estudiante de la Universidad Tecnológica de Tucumán; Me considero una persona apasionada por la programación y el desarrollo web dado que en 2020 tuve la oportunidad conocer este mundo del front-end y pude crear mi primera página web solo usando HTML y CSS desde allí, sentí una gran pasión por el desarrollo web, ya que puedes hacer cosas impresionantes sabiendo cómo usar HTML, CSS, JavaScript y hasta el día de hoy sigo sintiendo esa misma pasión cuando creo una página web.",
+    "about-info-2": "Me considero una persona autodidacta dado que me gusta estar en constante aprendizaje día a día, tanto como de nuevas tecnologías, como de nuevos métodos de desarrollo que me ayuden a pulir y elevar mi nivel de aprendizaje.",
+    "about-info-3": "Tengo experiencia trabajando como diseñador y desarrollador web freelance, lo cual me dio la oportunidad de trabajar en bastantes proyectos interesantes, adaptándome a las necesidades y presupuesto del cliente lo que me permitió mejorar mis habilidades y conocimientos; adicionalmente también he tenido la oportunidad de formar parte de algunos cursos en línea y de manera presencial que me ayudaron a enriquecer mis capacidades y poder conocer un poco más de este hermoso mundo del desarrollo web.",
+    "btn-cv": "Descargar CV",
+    "about-skills-1": "Más de un año de experiencia profesional en este lenguaje, me permiten desempeñarme sin problemas en la industria.",
+    "about-skills-2": "Más de un año de experiencia laboral en este lenguaje, lo utilizo diariamente para desarrollar diseños web e interfases.",
+    "about-skills-3": "Un año de experiencia usándolo en la rama del front-end y back-end, me permitieron familiarizarme con el lenguaje, e incluirlo en mis proyectos laborales.",
+    "about-skills-4": "Un año usando este preprocesador en el ámbito profesional, lo incluyo en mucho de mis proyectos ya que me permite un código mejor estructurado.",
+    "about-skills-5": "Menos de un año utilizando este framework, aun así, lo utilice en incontables proyectos laborales, que me permitieron conocerlo en su mayoría.",
+    "about-skills-6": "Un año usando esta librería en el ámbito personal y laboral, es de las librería que más empleo y manipulo.",
+    "about-skills-7": "Más de un año utilizando este framework JavaScript, realizando múltiples proyectos personales y laborales.",
+    "about-skills-8": "Es el entorno de tiempo de ejecución multiplataforma que utilizo para hacer que mis aplicaciones web sean escalables.",
+    "about-skills-9": "Es un framework que utilizo mayormente para poder administrar de la mejor manera mis APIs y mi modelo de ejecución http.",
 
     
     "services-price": "Precios",

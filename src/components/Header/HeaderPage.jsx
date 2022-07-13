@@ -45,8 +45,8 @@ const HeaderPage = () => {
                 </NavLink>
                 <NavLink to="/about" offset={-150} duration={500}>
                     <FormattedMessage
-                        id='aboult'
-                        defaultMessage='Aboult me'
+                        id='about'
+                        defaultMessage='About me'
                     />
                 </NavLink>
                 <NavLink to="/service" offset={-150} duration={500}>

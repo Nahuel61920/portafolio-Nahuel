@@ -55,7 +55,7 @@ function ProjectApp() {
                             />
                         </NavLink>
                         <NavLink to="/project/app" offset={-150} duration={500}>
-                            App
+                            Apps
                         </NavLink>
                         <NavLink to="/project/game" offset={-150} duration={500}>
                             <FormattedMessage

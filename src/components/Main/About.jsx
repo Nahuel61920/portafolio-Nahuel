@@ -1,6 +1,8 @@
 import React from 'react';
 import '../../pages/About/AboutPage.css'
 import { Link } from 'react-router-dom';
+import cv from '../../cv/cv.docx';
+import { ButtomGet } from '../ButtomGet/ButtomGet';
 
 /* Multi idioma */
 import { FormattedMessage } from 'react-intl';
@@ -9,8 +11,8 @@ const About = () => (
     <section className="sobre-mi" id="sobre-mi">
         <h2 className="heading">
             <FormattedMessage
-                id='aboult'
-                defaultMessage='Aboult me'
+                id='about'
+                defaultMessage='About me'
             />
         </h2>
 
@@ -25,13 +27,13 @@ const About = () => (
                 <h4>
                     <FormattedMessage
                         id='description'
-                        defaultMessage='My name is Esteban Carrizo and I specialize in Web Developer'
+                        defaultMessage='My name is Esteban Carrizo and I am a full stack developer.'
                     />
                 </h4>
                 <p>
                     <FormattedMessage
                         id='my-description'
-                        defaultMessage='I have been dedicated to web design and development for 1 year, I am constantly learning the technologies that I already master, and I seek to learn new technologies to enrich my skills'
+                        defaultMessage='I have been dedicated to web design and development for 2 years, I am constantly learning the technologies that I already master, I am also looking to learn new technologies to enrich my skills and improve my good practices'
                     />
                 </p>
                 <ul>
@@ -43,7 +45,15 @@ const About = () => (
                                     defaultMessage='Age:'
                                 />
                             </span>
-                            22
+                            23
+                        </p>
+                    </li>
+                    <li>
+                        <p>
+                            <span>
+                                Hobbies:{" "}
+                            </span>
+                                Chess, Football and Programming
                         </p>
                     </li>
                     <li>
@@ -62,20 +72,17 @@ const About = () => (
                     </li>
                 </ul>
                 <div className="mas-info">
-                    <a href="cv/final.docx" download="final.docx" className="custom-btn btn">
+                    <a href={cv} target="_blank" rel="noopener noreferrer" download="cv.docx" className="btn-codigo buttonDownload">
                         <FormattedMessage
                             id='btn-cv'
-                            defaultMessage='Download cv'
+                            defaultMessage='Download CV'
                         />
                     </a>
-                    <Link className="custom-btn btn-codigo" to="/about">
-                        <span>
-                            <FormattedMessage
-                                id='btn-know-more'
-                                defaultMessage='Read more'
-                            />
-                        </span>
+                    <div className='mas-info-btn'>
+                    <Link to="/about">
+                        <ButtomGet/>
                     </Link>
+                    </div>
                 </div>
             </div>
             <div className="columns col-skill" data-aos="fade-left" data-aos-delay="650">
@@ -117,6 +124,25 @@ const About = () => (
                     <div>
                         <img alt="Typescript" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-original.svg" />
                         <h5>Typescript</h5>
+                    </div>
+                </div>
+                <h4>Back-End</h4>
+                <div className="skill">
+                    <div>
+                        <img alt="Nodejs" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
+                        <h5>NodeJs</h5>
+                    </div>
+                    <div>
+                        <img alt="express" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" />
+                        <h5>Express</h5>
+                    </div>
+                    <div>
+                        <img alt="mongodb" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-plain-wordmark.svg" />
+                        <h5>MongodDB</h5>
+                    </div>
+                    <div>
+                        <img alt="php" className="icons-skils" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" />
+                        <h5>PHP</h5>
                     </div>
                 </div>
                 <h4>

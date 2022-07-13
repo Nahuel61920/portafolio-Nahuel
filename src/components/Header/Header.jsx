@@ -47,8 +47,8 @@ const Header = () => {
                 </Link>
                 <Link to="sobre-mi" spy={true} offset={-150} href="#sobre-mi">
                     <FormattedMessage
-                        id='aboult'
-                        defaultMessage='Aboult me'
+                        id='about'
+                        defaultMessage='About me'
                     />
                 </Link>
                 <Link to="servicios" spy={true} offset={-150} href="#servicios">

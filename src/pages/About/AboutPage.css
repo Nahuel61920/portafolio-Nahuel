@@ -1,4 +1,96 @@
 /********************** Sobre Mi **********************/
+.buttonDownload {
+	display: flex;
+	position: relative;
+	padding: 10px 25px;
+	background-color: transparent;
+	color: var(--black);
+	text-decoration: none;
+	font-size: 1.5rem;
+	text-align: center;
+    align-items: center;
+	text-indent: 15px;
+    font-weight: 700;
+    white-space: pre;
+    box-shadow: 7px 7px 20px 0px rgba(0,0,0,.1),
+    4px 4px 5px 0px rgba(0,0,0,.1);
+}
+
+body.dark .buttonDownload {
+    background-color: transparent;
+    box-shadow: none;
+}
+
+.buttonDownload:hover {
+	background-color: var(--black);
+	color: white;
+}
+
+body.dark .buttonDownload:hover {
+    background-color: white;
+}
+
+.buttonDownload:before, .buttonDownload:after {
+	content: ' ';
+	display: block;
+	position: absolute;
+	left: 15px;
+	top: 52%;
+}
+
+/* Download box shape  */
+.buttonDownload:before {
+	width: 10px;
+	height: 2px;
+	border-style: solid;
+	border-width: 0 2px 2px;
+}
+
+/* Download arrow shape */
+.buttonDownload:after {
+	width: 0;
+	height: 0;
+	margin-left: 3px;
+	margin-top: -7px;
+	border-style: solid;
+	border-width: 4px 4px 0 4px;
+	border-color: transparent;
+	border-top-color: inherit;
+	animation: downloadArrow 2s linear infinite;
+	animation-play-state: paused;
+}
+
+.buttonDownload:hover:before {
+	border-color: #4CC713;
+}
+
+.buttonDownload:hover:after {
+	border-top-color: #4CC713;
+	animation-play-state: running;
+}
+
+/* keyframes for the download icon anim */
+@keyframes downloadArrow {
+	/* 0% and 0.001% keyframes used as a hackish way of having the button frozen on a nice looking frame by default */
+	0% {
+		margin-top: -7px;
+		opacity: 1;
+	}
+	
+	0.001% {
+		margin-top: -15px;
+		opacity: 0;
+	}
+	
+	50% {
+		opacity: 1;
+	}
+	
+	100% {
+		margin-top: 0;
+		opacity: 0;
+	}
+}
 
 section .row{
     display: grid;
@@ -36,7 +128,7 @@ section .row .columns h4{
 section .row .columns p{
     font-size: 1.7rem;
     line-height: 2;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
     text-transform: none;
 }
 
@@ -52,6 +144,11 @@ section .row .columns ul li p span{
 section .row .columns .mas-info{
     display: flex;
     flex-direction: column;
+    margin: 0 0 2rem 0;
+}
+
+.mas-info-btn{
+    display: flex;
 }
 
 .sobre-mi .row .columns a{
@@ -91,7 +188,7 @@ section .row .col-skill h4{
 .icons-skils {
     width: 7rem;
     height: 7rem;
-    margin: .7rem 3rem;
+    margin: .5rem 3rem;
 }
 
 section .row .columns .skill img:hover {

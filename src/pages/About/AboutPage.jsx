@@ -6,7 +6,7 @@ import HeaderPage from '../../components/Header/HeaderPage';
 import Footer from '../../components/Footer/Footer';
 import ParticleBackground from "../../components/ParticlesBg/ParticleBackground";
 import ScrollToTop from '../../components/ScrollToTop/ScrollToTop';
-
+import cv from '../../cv/cv.docx';
 
 /* Multi idioma */
 import { FormattedMessage } from 'react-intl';
@@ -41,17 +41,18 @@ const About = () => {
           <div className="sobre-mi-container">
             <div className="sobre-mi-img-container">
               <img src={imgabout} alt="" className="sobre-mi-img" />
-              <a href="cv/final.docx" download="final.docx" className="btn-codigo cv">
-                <FormattedMessage
-                  id='btn-cv'
-                  defaultMessage='Download cv'
-                />
+              
+              <a href={cv} target="_blank" rel="noopener noreferrer" download="cv.docx" className="btn-codigo cv buttonDownload">
+                  <FormattedMessage
+                      id='btn-cv'
+                      defaultMessage='Download CV'
+                  />
               </a>
             </div>
             <div className="sobre-mi-info">
               <p>
                 <FormattedMessage
-                  id='aboult-info-1'
+                  id='about-info-1'
                   defaultMessage="Hi, I'm Esteban Nahuel Carrizo, a student at the Technological University of Tucumán; I consider myself a person passionate about programming and web development since in 2020 I had the opportunity to get to know this world of the front-end and I was able to create my first web page only using HTML and CSS from there, I felt a great passion for web development, since you can do amazing things knowing how to use HTML, CSS, JavaScript and to this day I still feel that same passion when I create a web page."
                 />
               </p>
@@ -59,14 +60,14 @@ const About = () => {
               <div className="hide parrafo-active">
                 <p>
                   <FormattedMessage
-                    id='aboult-info-2'
+                    id='about-info-2'
                     defaultMessage='I consider myself a self-taught person since I like to be constantly learning day by day, both new technologies and new development methods that help me polish and raise my level of learning.'
                   />
                 </p>
 
                 <p>
                   <FormattedMessage
-                    id='aboult-info-3'
+                    id='about-info-3'
                     defaultMessage="I have experience working as a freelance web designer and developer, which gave me the opportunity to work on many interesting projects, adapting to the client's needs and budget, which allowed me to improve my skills and knowledge; Additionally, I have also had the opportunity to be part of some online and face-to-face courses that helped me enrich my skills and learn a little more about this beautiful world of web development."
                   />
                 </p>
@@ -87,8 +88,8 @@ const About = () => {
                 <h2 className="skill-name">HTML</h2>
                 <p className="skill-info">
                   <FormattedMessage
-                    id='aboult-skills-1'
-                    defaultMessage='More than a year of professional experience in this language, allows me to perform without problems in the industry'
+                    id='about-skills-1'
+                    defaultMessage='More than a year of professional experience in this language, allows me to perform without problems in the industry.'
                   />
                 </p>
               </div>
@@ -97,8 +98,8 @@ const About = () => {
                 <h2 className="skill-name">CSS</h2>
                 <p className="skill-info">
                   <FormattedMessage
-                    id='aboult-skills-2'
-                    defaultMessage='More than a year of work experience in this language, I use it daily to develop web designs and interfaces'
+                    id='about-skills-2'
+                    defaultMessage='More than a year of work experience in this language, I use it daily to develop web designs and interfaces.'
                   />
                 </p>
               </div>
@@ -107,8 +108,8 @@ const About = () => {
                 <h2 className="skill-name">Javascript</h2>
                 <p className="skill-info">
                   <FormattedMessage
-                    id='aboult-skills-3'
-                    defaultMessage='A year of experience using it in the front-end branch, allowed me to familiarize myself with the language, and include it in my work projects'
+                    id='about-skills-3'
+                    defaultMessage='A year of experience using it in the front-end and back-end branch, allowed me to familiarize myself with the language, and include it in my work projects.'
                   />
                 </p>
               </div>
@@ -117,8 +118,8 @@ const About = () => {
                 <h2 className="skill-name">Sass</h2>
                 <p className="skill-info">
                   <FormattedMessage
-                    id='aboult-skills-4'
-                    defaultMessage='One year using this preprocessor in the professional field, I include it in many of my projects since it allows me a better structured code'
+                    id='about-skills-4'
+                    defaultMessage='One year using this preprocessor in the professional field, I include it in many of my projects since it allows me a better structured code.'
                   />
                 </p>
               </div>
@@ -127,8 +128,8 @@ const About = () => {
                 <h2 className="skill-name">Bootstrap</h2>
                 <p className="skill-info">
                   <FormattedMessage
-                    id='aboult-skills-5'
-                    defaultMessage='Less than a year using this framework, even so, I used it in countless work projects, which allowed me to get to know it for the most part'
+                    id='about-skills-5'
+                    defaultMessage='Less than a year using this framework, even so, I used it in countless work projects, which allowed me to get to know it for the most part.'
                   />
                 </p>
               </div>
@@ -137,8 +138,38 @@ const About = () => {
                 <h2 className="skill-name">jQuery</h2>
                 <p className="skill-info">
                   <FormattedMessage
-                    id='aboult-skills-6'
-                    defaultMessage='A year using this bookstore in the personal and work environment, it is one of the bookstores that I use and manipulate the most'
+                    id='about-skills-6'
+                    defaultMessage='A year using this bookstore in the personal and work environment, it is one of the bookstores that I use and manipulate the most.'
+                  />
+                </p>
+              </div>
+              <div className="skill-card" data-aos="flip-right" data-aos-delay="300">
+                <img alt="react" className="skills-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" title="jQuery" />
+                <h2 className="skill-name">ReactJs</h2>
+                <p className="skill-info">
+                  <FormattedMessage
+                    id='about-skills-7'
+                    defaultMessage='More than a year using this JavaScript framework, carrying out multiple personal and work projects.'
+                  />
+                </p>
+              </div>
+              <div className="skill-card" data-aos="flip-up" data-aos-delay="300">
+                <img alt="nodejs" className="skills-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" title="jQuery" />
+                <h2 className="skill-name">NodeJs</h2>
+                <p className="skill-info">
+                  <FormattedMessage
+                    id='about-skills-8'
+                    defaultMessage='It is the cross-platform runtime environment that I use to make my web applications scalable.'
+                  />
+                </p>
+              </div>
+              <div className="skill-card" data-aos="flip-left" data-aos-delay="300">
+                <img alt="express" className="skills-img" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg" title="jQuery" />
+                <h2 className="skill-name">Express</h2>
+                <p className="skill-info">
+                  <FormattedMessage
+                    id='about-skills-9'
+                    defaultMessage='It is a framework that I use mostly to be able to manage my APIs in the best way and my http execution model.'
                   />
                 </p>
               </div>

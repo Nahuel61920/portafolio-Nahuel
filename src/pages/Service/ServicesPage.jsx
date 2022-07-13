@@ -102,12 +102,13 @@ const Services = () => {
                   </span>
                 </li>
               </ul>
-              <a href="#" className="custom-btn btn-codigo portafolio-btn">
-                <FormattedMessage
-                  id='services-buy'
-                  defaultMessage='buy now'
-                />
-              </a>
+              <div className='portafolio-btn'>
+                <a href="#" className="custom-btn btn-codigo">
+                  <FormattedMessage
+                    id='services-buy'
+                    defaultMessage='buy now'
+                /></a>
+              </div>
             </div>
             <div className="columns recomendado" data-aos="fade-up" data-aos-delay="300">
               <h3>
@@ -197,12 +198,15 @@ const Services = () => {
                   </span>
                 </li>
               </ul>
-              <a href="#" className="custom-btn btn portafolio-btn">
-                <FormattedMessage
-                  id='services-buy'
-                  defaultMessage='buy now'
-                />
-              </a>
+              
+              <div className='portafolio-btn'>
+                <a href="#" className="custom-btn btn ">
+                  <FormattedMessage
+                    id='services-buy'
+                    defaultMessage='buy now'
+                  />
+                </a>
+              </div>
             </div>
             <div className="columns" data-aos="fade-up" data-aos-delay="400">
               <h3>Premium</h3>
@@ -287,12 +291,15 @@ const Services = () => {
                   </span>
                 </li>
               </ul>
-              <a href="#" className="custom-btn btn-codigo portafolio-btn">
+              
+              <div className='portafolio-btn'>
+              <a href="#" className="custom-btn btn-codigo">
                 <FormattedMessage
                   id='services-buy'
                   defaultMessage='buy now'
                 />
               </a>
+              </div>
             </div>
           </div>
         </section>
