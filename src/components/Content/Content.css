@@ -1,21 +1,24 @@
 /********************** Inicio **********************/
 
 .contenido {
-    background: url(../../img/inicio.png);
+    background: #010101;
     width: 100vw;
     height: 100vh;
     background-position: center center;
 	background-size: cover;
 }
 
+
 .inicio{
     display: flex;
     justify-content: center;
+    
 }
 
 .inicio .titulo{
     margin: 20rem auto 0 auto;
     text-align: center;
+    z-index: 200!important;
 }
 
 .inicio .titulo p {

@@ -15,8 +15,6 @@ import ProjectGame from "./pages/Project/ProjectGame";
 
 import RouterScrollTop from "./components/ScrollToTop/RouterScrollTop"
 
-/* Loading spinner */
-import HashLoader from "react-spinners/HashLoader";
 
 function App() {
     const [loading, setLoading] = useState(false);
@@ -34,11 +32,10 @@ function App() {
                 loading ?
 
                     <div className='loading-pag'>
-                        <HashLoader
-                            color={"#00e5fe"}
-                            loading={loading}
-                            size={150}
-                        />
+                        <div className="loader">
+                            <span>=(Nahuel61920)=></span>
+                            <span>=(Nahuel61920)=></span>
+                        </div>
                     </div>
 
                     :

@@ -52,6 +52,42 @@ main,
     height: 100vh;
 }
 
+.loader {
+    position: relative;
+}
+
+.loader span {
+position: absolute;
+color: #fff;
+transform: translate(-50%, -50%);
+font-size: 7rem;
+letter-spacing: 5px;
+white-space: pre;
+}
+
+.loader span:nth-child(1) {
+color: transparent;
+-webkit-text-stroke: 0.3px var(--green);
+}
+
+.loader span:nth-child(2) {
+color: var(--green);
+-webkit-text-stroke: 1px var(--green);
+animation: nahuel61920 3s ease-in-out infinite;
+}
+
+@keyframes nahuel61920 {
+0%, 100% {
+    clip-path: polygon(0% 45%, 15% 44%, 32% 50%, 
+    74% 60%, 70% 61%, 84% 59%, 100% 52%, 100% 100%, 0% 100%);
+}
+
+50% {
+    clip-path: polygon(0% 60%, 16% 65%, 34% 66%, 
+    51% 62%, 67% 50%, 84% 45%, 100% 46%, 100% 100%, 0% 100%);
+}
+}
+
 .heading{
     text-align: center;
     padding-bottom: 3rem;
@@ -158,6 +194,17 @@ body.dark .btn::after {
     z-index: -1;
 }
 
+.particles-2-css{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1!important;
+}
+
+
+
 /********************** Media Q **********************/
 
 @media (max-width: 990px) {
@@ -176,5 +223,9 @@ body.dark .btn::after {
 
     main {
         padding:2rem 5%;
+    }
+
+    .loader span {
+        font-size: 3rem;
     }
 }

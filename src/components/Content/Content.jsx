@@ -1,5 +1,6 @@
 import React from 'react';
 import './Content.css';
+import ParticleHeaderBg from '../ParticlesBg/ParticlesHeader/ParticleHeaderBg';
 
 /* ReactScroll */
 import { Link } from 'react-scroll';
@@ -9,8 +10,11 @@ import { FormattedMessage } from 'react-intl';
 
 const Content = () => (
     <div className="contenido">
+        <ParticleHeaderBg/>
         <section className="inicio" id="inicio">
+        
             <div className="titulo">
+            
                 <p data-aos="fade-up" data-aos-delay="600">
                     <FormattedMessage
                         id='greeting'

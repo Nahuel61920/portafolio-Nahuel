@@ -4,6 +4,6 @@ import ParticleConfig from "./particle-config"
 
 export default function ParticleBackground() {
     return (
-        <Particles className="particles-css" params={ParticleConfig}></Particles>
+        <Particles id="particles" className="particles-css" params={ParticleConfig}></Particles>
     );
 }
