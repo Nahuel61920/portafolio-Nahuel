@@ -10,7 +10,6 @@ import { FormattedMessage } from 'react-intl';
 
 const Content = () => (
     <div className="contenido">
-        <div className='imagen-fondo'></div>
         <ParticleHeaderBg/>
         <section className="inicio" id="inicio">
         
