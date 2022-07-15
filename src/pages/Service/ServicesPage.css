@@ -77,6 +77,10 @@
     color: var(--black);
 }
 
+.site-services .columns .ul-cards-services{
+    margin: 0 0 2rem 0;
+}
+
 
 .site-services .columns li {
     font-size: 1.5rem;
@@ -104,6 +108,10 @@
 .site-services .row .recomendado li,
 .site-services .row .recomendado li i{
     color: var(--light-color);
+}
+
+.heading-services.btn-services{
+    display: none!important;
 }
 
 

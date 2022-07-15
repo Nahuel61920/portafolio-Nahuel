@@ -21,6 +21,12 @@ import { FormattedMessage } from 'react-intl';
 const proyectsImgApp = require.context('../../img', true);
 
 function ProjectApp() {
+    const [estadoModal16, cambiarEstadoModal16] = useState(false);
+    const [estadoModal15, cambiarEstadoModal15] = useState(false);
+    const [estadoModal14, cambiarEstadoModal14] = useState(false);
+    const [estadoModal13, cambiarEstadoModal13] = useState(false);
+    const [estadoModal12, cambiarEstadoModal12] = useState(false);
+    const [estadoModal11, cambiarEstadoModal11] = useState(false);
     const [estadoModal10, cambiarEstadoModal10] = useState(false);
     const [estadoModal9, cambiarEstadoModal9] = useState(false);
     const [estadoModal8, cambiarEstadoModal8] = useState(false);
@@ -66,6 +72,36 @@ function ProjectApp() {
                     </nav>
                 </section>
                 <section className="projects__grid apps">
+                    <div className="projects__item">
+                        <a onClick={() => cambiarEstadoModal16(!estadoModal16)}>
+                            <img src={proyectsImgApp(`./proyecto-app-16.jpg`)} alt="" className="projects__img" />
+                        </a>
+                    </div>
+                    <div className="projects__item">
+                        <a onClick={() => cambiarEstadoModal15(!estadoModal15)}>
+                            <img src={proyectsImgApp(`./proyecto-app-15.jpg`)} alt="" className="projects__img" />
+                        </a>
+                    </div>
+                    <div className="projects__item">
+                        <a onClick={() => cambiarEstadoModal14(!estadoModal14)}>
+                            <img src={proyectsImgApp(`./proyecto-app-14.jpg`)} alt="" className="projects__img" />
+                        </a>
+                    </div>
+                    <div className="projects__item">
+                        <a onClick={() => cambiarEstadoModal13(!estadoModal13)}>
+                            <img src={proyectsImgApp(`./proyecto-app-13.jpg`)} alt="" className="projects__img" />
+                        </a>
+                    </div>
+                    <div className="projects__item">
+                        <a onClick={() => cambiarEstadoModal12(!estadoModal12)}>
+                            <img src={proyectsImgApp(`./proyecto-app-12.jpg`)} alt="" className="projects__img" />
+                        </a>
+                    </div>
+                    <div className="projects__item">
+                        <a onClick={() => cambiarEstadoModal11(!estadoModal11)}>
+                            <img src={proyectsImgApp(`./proyecto-app-11.jpg`)} alt="" className="projects__img" />
+                        </a>
+                    </div>
                     <div className="projects__item">
                         <a onClick={() => cambiarEstadoModal10(!estadoModal10)}>
                             <img src={proyectsImgApp(`./proyecto-app-10.jpg`)} alt="" className="projects__img" />
@@ -118,6 +154,238 @@ function ProjectApp() {
                     </div>
                 </section>
             </main>
+
+            <Modal
+                estado={estadoModal16}
+                cambiarEstado={cambiarEstadoModal16}
+            >
+                <div className="content-modal">
+                    <div className="pw-content">
+                        <div className="eins-modal-preview"><img src={proyectsImgApp(`./proyecto-app-16.jpg`)} alt="" /></div>
+                        <div className="eins-modal-text">
+                            <p>
+                                Weather App
+                            </p>
+                            <p>
+                                <FormattedMessage
+                                    id='projectsApp-info-16-p2'
+                                    defaultMessage='It allows you to search for the weather of the city you choose, you can delete the city you searched for and also see more details of the city.'
+                                />
+                            </p>
+                            <div className="eins-modal-text-2">
+                                <span>Link:</span> <a href="https://github.com/Nahuel61920/Weather-App-React" target="_blank">https://github.com/Nahuel61920/Weather-App-React</a>
+                            </div>
+                            <div className="eins-modal-text-3">
+                                <span>
+                                    <FormattedMessage
+                                        id='projects-tec'
+                                        defaultMessage='Used technology:'
+                                    />
+                                </span>
+                                <div className="eins-modal-tec">
+                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="" />
+                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="" />
+                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg" alt="" />
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </Modal>
+
+            <Modal
+                estado={estadoModal15}
+                cambiarEstado={cambiarEstadoModal15}
+            >
+                <div className="content-modal">
+                    <div className="pw-content">
+                        <div className="eins-modal-preview"><img src={proyectsImgApp(`./proyecto-app-15.jpg`)} alt="" /></div>
+                        <div className="eins-modal-text">
+                            <p>
+                                Stickers App
+                            </p>
+                            <p>
+                                <FormattedMessage
+                                    id='projectsApp-info-15-p2'
+                                    defaultMessage='The app extracts data from the giphy API, to search for the stickers that the user wants'
+                                />
+                            </p>
+                            <div className="eins-modal-text-2">
+                                <span>Link:</span> <a href="https://nahuel61920.github.io/Stickers-App/" target="_blank">https://nahuel61920.github.io/Stickers-App/</a>
+                            </div>
+                            <div className="eins-modal-text-3">
+                                <span>
+                                    <FormattedMessage
+                                        id='projects-tec'
+                                        defaultMessage='Used technology:'
+                                    />
+                                </span>
+                                <div className="eins-modal-tec">
+                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="" />
+                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="" />
+                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg" alt="" />
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </Modal>
+
+
+            <Modal
+                estado={estadoModal14}
+                cambiarEstado={cambiarEstadoModal14}
+            >
+                <div className="content-modal">
+                    <div className="pw-content">
+                        <div className="eins-modal-preview"><img src={proyectsImgApp(`./proyecto-app-14.jpg`)} alt="" /></div>
+                        <div className="eins-modal-text">
+                            <p>
+                                Music player
+                            </p>
+                            <p>
+                                <FormattedMessage
+                                    id='projectsApp-info-14-p2'
+                                    defaultMessage='Small music player created with javascript, allows you to play, pause, fast forward and skip the songs'
+                                />
+                            </p>
+                            <div className="eins-modal-text-2">
+                                <span>Link:</span> <a href="https://nahuel61920.github.io/Music-player/" target="_blank">https://nahuel61920.github.io/Music-player/</a>
+                            </div>
+                            <div className="eins-modal-text-3">
+                                <span>
+                                    <FormattedMessage
+                                        id='projects-tec'
+                                        defaultMessage='Used technology:'
+                                    />
+                                </span>
+                                <div className="eins-modal-tec">
+                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="" />
+                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="" />
+                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg" alt="" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </Modal>
+
+            <Modal
+                estado={estadoModal13}
+                cambiarEstado={cambiarEstadoModal13}
+            >
+                <div className="content-modal">
+                    <div className="pw-content">
+                        <div className="eins-modal-preview"><img src={proyectsImgApp(`./proyecto-app-13.jpg`)} alt="" /></div>
+                        <div className="eins-modal-text">
+                            <p>
+                                GitHub-User
+                            </p>
+                            <p>
+                                <FormattedMessage
+                                    id='projectsApp-info-13-p2'
+                                    defaultMessage='GitHub User Finder, allows you to display all the user information you are looking for such as Last repositories, stars, followers and followed.'
+                                />
+                            </p>
+                            <div className="eins-modal-text-2">
+                                <span>Link:</span> <a href="https://nahuel61920.github.io/GitHub-User-Finder/" target="_blank">https://nahuel61920.github.io/GitHub-User-Finder/</a>
+                            </div>
+                            <div className="eins-modal-text-3">
+                                <span>
+                                    <FormattedMessage
+                                        id='projects-tec'
+                                        defaultMessage='Used technology:'
+                                    />
+                                </span>
+                                <div className="eins-modal-tec">
+                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="" />
+                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="" />
+                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg" alt="" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </Modal>
+
+            <Modal
+                estado={estadoModal12}
+                cambiarEstado={cambiarEstadoModal12}
+            >
+                <div className="content-modal">
+                    <div className="pw-content">
+                        <div className="eins-modal-preview"><img src={proyectsImgApp(`./proyecto-app-12.jpg`)} alt="" /></div>
+                        <div className="eins-modal-text">
+                            <p>
+                                My paint
+                            </p>
+                            <p>
+                                <FormattedMessage
+                                    id='projectsApp-info-12-p2'
+                                    defaultMessage='A small paint that allows us to draw, change colors, edit the thickness of the line and erase the drawing made'
+                                />
+                            </p>
+                            <div className="eins-modal-text-2">
+                                <span>Link:</span> <a href="https://nahuel61920.github.io/Paint/" target="_blank">https://nahuel61920.github.io/Paint/</a>
+                            </div>
+                            <div className="eins-modal-text-3">
+                                <span>
+                                    <FormattedMessage
+                                        id='projects-tec'
+                                        defaultMessage='Used technology:'
+                                    />
+                                </span>
+                                <div className="eins-modal-tec">
+                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="" />
+                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="" />
+                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg" alt="" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </Modal>
+
+            <Modal
+                estado={estadoModal11}
+                cambiarEstado={cambiarEstadoModal11}
+            >
+                <div className="content-modal">
+                    <div className="pw-content">
+                        <div className="eins-modal-preview"><img src={proyectsImgApp(`./proyecto-app-11.jpg`)} alt="" /></div>
+                        <div className="eins-modal-text">
+                            <p>
+                                Pokedex
+                            </p>
+                            <p>
+                                <FormattedMessage
+                                    id='projectsApp-info-11-p2'
+                                    defaultMessage='A pokedex created with the pokemon API, returns all the pokemons with their respective statistics, includes a pagination every 9 pokemons.'
+                                />
+                            </p>
+                            <div className="eins-modal-text-2">
+                                <span>Link:</span> <a href="https://nahuel61920.github.io/Pokedex/" target="_blank">https://nahuel61920.github.io/Pokedex/</a>
+                            </div>
+                            <div className="eins-modal-text-3">
+                                <span>
+                                    <FormattedMessage
+                                        id='projects-tec'
+                                        defaultMessage='Used technology:'
+                                    />
+                                </span>
+                                <div className="eins-modal-tec">
+                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" alt="" />
+                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" alt="" />
+                                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bootstrap/bootstrap-original.svg" alt="" />
+                                    <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-plain.svg" alt="" />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </Modal>
 
             <Modal
                 estado={estadoModal10}

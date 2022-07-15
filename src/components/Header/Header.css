@@ -260,8 +260,8 @@ body.dark #darkMode::after {
   body.dark #darkMode span {
     width: 3rem;
     height: 3rem;
-    line-height: 2.7rem;
-    padding: 0 0 0 4px;
+    line-height: 1rem;
+    padding: 4px 0 0 4px;
     font-size: 1.5rem;
   }
 
@@ -272,26 +272,26 @@ body.dark #darkMode::after {
 
 @media (max-width: 570px) {
   .site-header {
-    padding: 0.4rem 5%;
+    padding: 1rem 5%;
   }
 
   body.light #darkMode,
   body.dark #darkMode {
-    width: 40px;
-    height: 21px;
+    width: 47px;
+    height: 25px;
   }
 
   body.light #darkMode::after,
   body.dark #darkMode::after {
-    width: 21px;
-    height: 21px;
+    width: 24px;
+    height: 24px;
     top: 0;
   }
 
   body.light #darkMode span,
   body.dark #darkMode span {
     line-height: 2.7rem;
-    padding: 0.4px 0 0 4px;
+    padding: 2px 0 0 4px;
   }
 
   .navbar .active-link::before,

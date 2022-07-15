@@ -10,6 +10,7 @@ import { FormattedMessage } from 'react-intl';
 
 const Content = () => (
     <div className="contenido">
+        <div className='imagen-fondo'></div>
         <ParticleHeaderBg/>
         <section className="inicio" id="inicio">
         
@@ -18,7 +19,7 @@ const Content = () => (
                 <p data-aos="fade-up" data-aos-delay="600">
                     <FormattedMessage
                         id='greeting'
-                        defaultMessage='Hellow'
+                        defaultMessage='Hello'
                     />
                 </p>
                 <h1 data-aos="fade-up" data-aos-delay="800">

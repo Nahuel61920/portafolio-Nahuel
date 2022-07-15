@@ -8,6 +8,14 @@
 	background-size: cover;
 }
 
+.imagen-fondo {
+    background: url(../../img/inicio.png) no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    position: absolute;
+}
+
 
 .inicio{
     display: flex;

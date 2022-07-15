@@ -96,7 +96,8 @@
     "img-3	img-3	img-4	img-4   img-5	img-5"
     "img-6	img-6	img-7	img-7   img-8	img-8"
     "img-9	img-9	img-10	img-10  img-11	img-11"
-    "img-12	img-12	img-13	img-13  img-14	img-14";
+    "img-12	img-12	img-13	img-13  img-14	img-14"
+    "img-15	img-15	img-16	img-16  img-17	img-17";
   gap: 10px;
   margin-top: 6rem;
 }
@@ -165,6 +166,12 @@
 
 .projects__item:nth-of-type(14) {
   grid-area: img-14;
+}
+.projects__item:nth-of-type(15) {
+  grid-area: img-15;
+}
+.projects__item:nth-of-type(16) {
+  grid-area: img-16;
 }
 
 .mas-proyect .btn-info {
@@ -237,7 +244,7 @@
 
 .eins-modal-text-2 {
   padding: 5rem 0 2rem;
-  font-size: 1.7rem;
+  font-size: 1.5rem!important;
 }
 
 .eins-modal-text-2 a {

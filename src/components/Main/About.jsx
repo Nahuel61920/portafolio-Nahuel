@@ -27,13 +27,13 @@ const About = () => (
                 <h4>
                     <FormattedMessage
                         id='description'
-                        defaultMessage='My name is Esteban Carrizo and I am a full stack developer.'
+                        defaultMessage='My name is Esteban Nahuel Carrizo and I am a full stack developer.'
                     />
                 </h4>
                 <p>
                     <FormattedMessage
                         id='my-description'
-                        defaultMessage='I have been dedicated to web design and development for 2 years, I am constantly learning the technologies that I already master, I am also looking to learn new technologies to enrich my skills and improve my good practices'
+                        defaultMessage='I have been working on web designing and web development for 2 years. Constantly updating the technologies I already master, but also looking to learn new technologies to enrich my skills and improve my good practices as a developer.'
                     />
                 </p>
                 <ul>
