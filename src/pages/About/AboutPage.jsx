@@ -6,7 +6,7 @@ import HeaderPage from '../../components/Header/HeaderPage';
 import Footer from '../../components/Footer/Footer';
 import ParticleBackground from "../../components/ParticlesBg/ParticleBackground";
 import ScrollToTop from '../../components/ScrollToTop/ScrollToTop';
-import cv from '../../cv/cv.docx';
+import cv from '../../cv/cv.pdf';
 
 /* Multi idioma */
 import { FormattedMessage } from 'react-intl';
@@ -42,7 +42,7 @@ const About = () => {
             <div className="sobre-mi-img-container">
               <img src={imgabout} alt="" className="sobre-mi-img" />
               
-              <a href={cv} target="_blank" rel="noopener noreferrer" download="cv.docx" className="btn-codigo cv buttonDownload">
+              <a href={cv} target="_blank" rel="noopener noreferrer" download="cv.pdf" className="btn-codigo cv buttonDownload">
                   <FormattedMessage
                       id='btn-cv'
                       defaultMessage='Download CV'
