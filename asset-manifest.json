@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/portafolio-Nahuel/static/css/main.7e1b3d56.css",
-    "main.js": "/portafolio-Nahuel/static/js/main.d47c1d03.js",
+    "main.js": "/portafolio-Nahuel/static/js/main.0b3871c7.js",
     "static/js/787.ecc39371.chunk.js": "/portafolio-Nahuel/static/js/787.ecc39371.chunk.js",
     "static/media/Thumbs.db": "/portafolio-Nahuel/static/media/Thumbs.9f911dd27f85926e7218.db",
     "static/media/inicio.png": "/portafolio-Nahuel/static/media/inicio.9e191e0f2820064e6d28.png",
-    "static/media/cv.docx": "/portafolio-Nahuel/static/media/cv.5bf29b15acd5bf416b2e.docx",
+    "static/media/cv.pdf": "/portafolio-Nahuel/static/media/cv.c31881f516debb217e5c.pdf",
     "static/media/proyecto-17-com.png": "/portafolio-Nahuel/static/media/proyecto-17-com.2bc063c32eca5ac09842.png",
+    "static/media/portfolio.png": "/portafolio-Nahuel/static/media/portfolio.db37f4e450ab03a28636.png",
     "static/media/proyecto-5-com.png": "/portafolio-Nahuel/static/media/proyecto-5-com.6ba644471266de376326.png",
     "static/media/proyecto-11-com.png": "/portafolio-Nahuel/static/media/proyecto-11-com.f62a13d09a93136aaab3.png",
     "static/media/proyecto-6-com.png": "/portafolio-Nahuel/static/media/proyecto-6-com.793e6636e20b75e30b41.png",
@@ -53,11 +54,11 @@
     "static/media/proyecto-app-2.jpg": "/portafolio-Nahuel/static/media/proyecto-app-2.5d8ddf1cc2638b419fd5.jpg",
     "index.html": "/portafolio-Nahuel/index.html",
     "main.7e1b3d56.css.map": "/portafolio-Nahuel/static/css/main.7e1b3d56.css.map",
-    "main.d47c1d03.js.map": "/portafolio-Nahuel/static/js/main.d47c1d03.js.map",
+    "main.0b3871c7.js.map": "/portafolio-Nahuel/static/js/main.0b3871c7.js.map",
     "787.ecc39371.chunk.js.map": "/portafolio-Nahuel/static/js/787.ecc39371.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7e1b3d56.css",
-    "static/js/main.d47c1d03.js"
+    "static/js/main.0b3871c7.js"
   ]
 }
