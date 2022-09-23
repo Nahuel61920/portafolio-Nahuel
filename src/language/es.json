@@ -95,7 +95,8 @@
     
     "projects-link": "Enlace:",
     "projects-tec": "Tecnologías Utilizadas:",
-    "projects-info-17-p1": "TatoFood, página creada para la venta de comida rápida.page created for the sale of fast food.",
+
+    "projects-info-17-p1": "TatoFood, página creada para la venta de comida rápida, con un diseño moderno y agradable.",
     "projects-info-17-p2": "a para atraer visualmente al usuario, con preparaciones culinarias de excelente calidad y con una interfaz de transiciones atractivas.",
     "projects-info-16-p1": "Crystal Heart Store, es una tienda de ropa online.",
     "projects-info-16-p2": "Diseñada para que el cliente pueda buscar los productos de una manera muy rápida y fácil, pueda calcular el envió y pagar online.",
@@ -123,6 +124,9 @@
     "projects-info-5-p2": "Diseñada para atraer visualmente al usuario, con preparaciones culinarias de excelente calidad y con una interfaz de transiciones atractivas.",
     "projects-info-3-p1": "ProgramCoffe, un blog diseñado para informar sobre las mejores recetas para tu café.",
     "projects-info-3-p2": "Ofrece una gran cantidad de información sobre las preparaciones perfectas para un buen café, tanto como la temperatura a la cual hay que prepararlo, como los mejores granos de café.",
+    "projectsApp-info-18-p1": "Una aplicación que ofrece servicios de intercambio para todas las criptomonedas de la red Ethereum. Puedes convertir dólares en criptomonedas, cambiar a otras y venderlas para cobrarlas en dólares.",
+    "projectsApp-info-18-p2": "La aplicación cuenta con un sistema de autenticación, para que el usuario pueda acceder a su cuenta y realizar las operaciones que desee, tambien cuenta un apartado donde se puede ver la evolución de las diferentes criptomonedas.",
+    "projectsApp-info-17-p2": "Este proyecto consistió en el desarrollo de una SPA (Single Page Application) la cual se desarrolla con el estilo de neumorfismo, hace uso de una API de datos (The Dog API), y luego parte de la información es extraída y almacenada en una Base de Datos, (PostgreSQL) para que pueda ser utilizado posteriormente a conveniencia.",
     "projectsApp-info-16-p2": "Te permite buscar el clima de la ciudad que elijas, puedes borrar la ciudad que buscaste y también ver más detalles de la ciudad.",
     "projectsApp-info-15-p2": "La app extrae datos de la API giphy, para buscar los stickers que quiere el usuario",
     "projectsApp-info-14-p2": "Pequeño reproductor de música creado con javascript, te permite reproducir, pausar, avanzar rápido y saltar las canciones.",

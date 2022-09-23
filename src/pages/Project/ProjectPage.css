@@ -202,7 +202,9 @@
   border-radius: 5px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
   padding: 20px;
+  margin: 5rem 2rem 0 0;
 }
+
 
 .boton-cerrar {
   position: absolute;
@@ -255,6 +257,13 @@
   width: 3rem;
   height: 3rem;
   margin: 1rem 2rem 1rem 0;
+}
+
+
+.eins-modal-tec-2 img {
+  width: 2.8rem;
+  height: 3rem;
+  margin: 1rem 1.7rem 1rem 0;
 }
 
 .eins-modal-text p {
